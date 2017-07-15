@@ -19,6 +19,7 @@ Floating point comparison, approx|&#10003;|&#10003;| &nbsp;|
 Floating point comparison, ulp   | -      | -      | &nbsp;|
 Test selection (include/omit)    |&#10003;|&#10003;| &nbsp;|
 Test selection (regexp)          | -      |&#10003;| &nbsp;|
+Section selection (include)      |&#10003;| -      | &nbsp;|
 Help screen                      |&#10003;|&#10003;| &nbsp;|
 Abort at first failure           |&#10003;|&#10003;| &nbsp;|
 Count selected tests             |&#10003;|&#10003;| &nbsp;|
