@@ -3,7 +3,7 @@ Tabularised feature comparison between Catch, lest and possibly other C++ test f
 
 Note: This is an initial draft, it is incomplete and likely contains errors.
 
-Feature                          | Catch  | lest   | Notes |
+Feature                          | [Catch](https://github.com/philsquared/Catch/)| [lest](https://github.com/martinmoene/lest/)| Notes |
 ---------------------------------|:------:|:------:|:------|
 Assert expressions               |&#10003;|&#10003;| &nbsp;|
 Assert exceptions                |&#10003;|&#10003;| &nbsp;|
