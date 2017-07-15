@@ -1,5 +1,5 @@
-# Catch&ndash;lest feature comparison
-Tabularised feature comparison between Catch, lest and possibly other C++ test frameworks.
+# Catch&ndash;doctest&ndash;lest feature comparison
+Tabularised feature comparison between Catch, doctest and lest C++ test frameworks.
 
 Note: This is an initial draft, it is incomplete and likely contains errors.
 
