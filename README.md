@@ -87,7 +87,7 @@ Select tests by file             |&#10003;|&#10003;|&#10003;| -      | Catch: vi
 Select section by name           |&#10003;|&#10003;|&#10003;| -      | &nbsp;|
 Select supports regexp           |&#10003;| -      | -      |&#10003;| &nbsp;|
 Omit assertions expected to throw| -      |&#10003;|&#10003;| -      | &nbsp;|
-Count selected tests             | -      |&#10003;|&#10003;|&#10003;| &nbsp;|
+Count selected tests             | -      | -      | -      |&#10003;| &nbsp;|
 Abort at N-th failure            |&#10003;|&#10003;|&#10003;|&#10003;| lest: N is 1 |
 Break into debugger              |&#10003;|&#10003;|&#10003;| -      | &nbsp;|
 Report passing tests             |&#10003;|&#10003;|&#10003;|&#10003;| &nbsp;|
