@@ -45,8 +45,8 @@ Event listeners                  | -      |&#10003;|&#10003;| -      | &nbsp;|
 Run-time context                 |&#10003;|&#10003;|&#10003;| -      | &nbsp;|
   &nbsp;                         | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 **Reporting formats**            | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
-Console                          |&#10003;|&#10003;|&#10003;| -      | &nbsp;|
-Console, compact (single-line)   | -      |&#10003;|&#10003;|&#10003;| &nbsp;|
+Console, multi-line              |&#10003;|&#10003;|&#10003;| -      | &nbsp;|
+Console, single-line (compact)   | -      |&#10003;|&#10003;|&#10003;| &nbsp;|
 JUnit                            | -      |&#10003;|&#10003;| -      | result at end|
 XML                              | -      |&#10003;|&#10003;| -      | streaming|
 TeamCity                         | -      |&#10003;|&#10003;| -      | &nbsp;|
