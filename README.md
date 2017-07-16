@@ -60,7 +60,7 @@ Literal suffix u, l, f           | -      | -      | -      |&#10003;| compile-t
   &nbsp;                         | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 **Test execution**               | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 Concurrent execution of tests    | -      | -      | -      | -      | &nbsp;|
-Shielded execution of tests      | -      | -      | -      | -      | &nbsp;|
+Isolated execution of tests      | -      | -      | -      | -      | &nbsp;|
 Supports Posix signals           |&#10003;|&#10003;|&#10003;| -      | &nbsp;|
 Supports Windows SEH             |&#10003;|&#10003;|&#10003;| -      | &nbsp;|
   &nbsp;                         | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
