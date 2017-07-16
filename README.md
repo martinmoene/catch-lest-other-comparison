@@ -1,9 +1,11 @@
 # Catch&ndash;doctest&ndash;lest feature comparison
 Tabularised feature comparison between Catch, doctest and lest C++ test frameworks.
 
-Note: This is an initial draft, it is incomplete and likely contains errors.
+Note 1: This is an initial draft, it is incomplete and likely contains errors.  
+Note 2: Catch-2 is not yet released.
 
 Ideas, additions, corrections, signaling omissions, etc. welcome! 
+
 
 Feature                           | [doctest](https://github.com/onqtam/doctest/)| [Catch-1](https://github.com/philsquared/Catch/)| [Catch-2](https://github.com/philsquared/Catch/tree/dev-modernize)| [lest](https://github.com/martinmoene/lest/)| Notes |
 ----------------------------------|:------:|:------:|:------:|:-------|-------|
@@ -115,5 +117,9 @@ Repeat tests                      | -      |&#10003;|&#10003;|&#10003;| &nbsp;|
 **Testing of framework itself**   | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
   &nbsp;                          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 **Distribution of framework**     | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
+GitHub single-file download       |&#10003;|&#10003;| -      |&#10003;| from the landing page |
+conan                             |&#10003;|&#10003;| -      | -      | &nbsp;|
+hunter                            |&#10003;| ?      | -      | -      | &nbsp;|
+vpkg                              |&#10003;| ?      | -      | -      | &nbsp;|
   &nbsp;                          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 
