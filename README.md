@@ -3,6 +3,8 @@ Tabularised feature comparison between Catch, doctest and lest C++ test framewor
 
 Note: This is an initial draft, it is incomplete and likely contains errors.
 
+Ideas, additions, corrections, signaling omissions, etc. welcome! 
+
 Feature                          | [doctest](https://github.com/onqtam/doctest/)| [Catch-1](https://github.com/philsquared/Catch/)| [Catch-2](https://github.com/philsquared/Catch/tree/dev-modernize)| [lest](https://github.com/martinmoene/lest/)| Notes |
 ---------------------------------|:------:|:------:|:------:|:-------|-------|
 **C++ standard related**         | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
