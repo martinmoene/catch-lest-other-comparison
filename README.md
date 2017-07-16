@@ -10,6 +10,12 @@ C++ standard                     | C++98  | C++98  | C++11  | C++11  | &nbsp;|
 Can work without exceptions      |&#10003;| -      | -      | -      | &nbsp;|
 Requires RTTI                    | -      | ?      | ?      | ?      | &nbsp;|
   &nbsp;                         | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
+**Fields of use**                | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
+Desktop                          |&#10003;|&#10003;|&#10003;|&#10003;| &nbsp;|
+Embedded (tiny)                  | ?      | ?      | ?      | ?      | &nbsp;|
+Embedded (largish)               | ?      | ?      | ?      |&#10003;| &nbsp;|
+Operating System                 | ?      | ?      | ?      |&#10003;| lest: IncludeOS |
+  &nbsp;                         | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 **Test organisation**            | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 Suites of tests                  |&#10003;| -      | -      | -      | &nbsp;|
 Fixtures (sections)              |&#10003;|&#10003;|&#10003;|&#10003;| doctest: sub case |
