@@ -96,6 +96,7 @@ Supports Posix signals            |&#10003;|&#10003;|&#10003;| -      | &nbsp;|
 Supports Windows SEH              |&#10003;|&#10003;|&#10003;| -      | &nbsp;|
   &nbsp;                          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 **Compile-time control**          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
+Improve compilation speed         |&#10003;|&#10003;|&#10003;|-       | reduced functionality |
 Omit macros without prefix        |&#10003;|&#10003;|&#10003;|&#10003;| &nbsp;|
 Omit std::wstring                 | -      | -      | -      |&#10003;| &nbsp;|
 Omit std::cout, std::cerr         | -      |&#10003;|&#10003;| -      | &nbsp;|
