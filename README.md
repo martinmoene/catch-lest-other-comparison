@@ -11,8 +11,8 @@ Feature                           | [doctest](https://github.com/onqtam/doctest/
 ----------------------------------|:------:|:------:|:------:|:-------|-------|
 **C++ standard related**          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 C++ standard                      | C++98  | C++98  | C++11  | C++11  | &nbsp;|
-Can work without exceptions       |&#10003;| -      | -      | -      | &nbsp;|
-Requires RTTI                     | -      | ?      | ?      | ?      | &nbsp;|
+Can work without exceptions       |&#10003;| -      | -      | -      | reduced functionality |
+Requires RTTI                     | -      | ?      | ?      | -      | &nbsp;|
   &nbsp;                          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 **Fields of use**                 | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 Desktop                           |&#10003;|&#10003;|&#10003;|&#10003;| &nbsp;|
@@ -38,7 +38,7 @@ Assert exceptions                 |&#10003;|&#10003;|&#10003;|&#10003;| &nbsp;|
 Assert abortion (death)           | -      | -      | -      | -      | &nbsp;|
 Assert assertions (death)         | -      | -      | -      | -      | &nbsp;|
 Floating point comparison, approx |&#10003;|&#10003;|&#10003;|&#10003;| &nbsp;|
-Floating point comparison, ulp    | -      | -      | -      | -      | &nbsp;|
+Floating point comparison, ulp    | -      | -      | -      | -      | see [stf](https://github.com/jfalcou/stf/blob/master/doc/rationale.md)|
 Hamcrest matchers                 | ?      |[limited](https://github.com/philsquared/Catch/blob/master/docs/matchers.md)|[limited](https://github.com/philsquared/Catch/blob/master/docs/matchers.md)|[hamlest](https://github.com/martinmoene/hamlest)| &nbsp;|
 Expression decomposition          |&#10003;|&#10003;|&#10003;|&#10003;| &nbsp;|
 Macros with and without prefix    |&#10003;|&#10003;|&#10003;|&#10003;| CATCH_CHECK(), CHECK()|
