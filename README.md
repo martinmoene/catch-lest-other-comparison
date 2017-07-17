@@ -114,6 +114,8 @@ Repeat tests                      | -      |&#10003;|&#10003;|&#10003;| &nbsp;|
 **IDE integration**               | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
   Visual Studio output window     |&#10003;| ?      | ?      | -      | &nbsp;|
   &nbsp;                          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
+**Documentation of framework**    | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
+  &nbsp;                          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 **Testing of framework itself**   | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
   &nbsp;                          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 **Distribution of framework**     | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
