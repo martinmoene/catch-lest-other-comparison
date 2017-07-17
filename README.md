@@ -53,16 +53,16 @@ Assert exceptions                 |&#10003;|&#10003;|&#10003;|&#10003;| &nbsp;|
 Assert abortion (death)           | -      | -      | -      | -      | &nbsp;|
 Assert assertions (death)         | -      | -      | -      | -      | &nbsp;|
 Floating point comparison, approx |&#10003;|&#10003;|&#10003;|&#10003;| &nbsp;|
-Floating point comparison, ulp    | -      | -      | -      | -      | see [stf](#ULP)|
+Floating point comparison, ulp    | -      | -      | -      | -      | see stf [[10]](#ULP)|
 Hamcrest matchers                 | ?      |[limited](#C1M)|[limited](#C1M)|[hamlest](#HLM)| &nbsp;|
-Expression decomposition          |&#10003;|&#10003;|&#10003;|&#10003;| &nbsp;|
+Expression decomposition          |&#10003;|&#10003;|&#10003;|&#10003;| see [[2]](#PN1) |
 Macros with and without prefix    |&#10003;|&#10003;|&#10003;|&#10003;| CATCH_CHECK(), CHECK()|
   &nbsp;                          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 **Other test facilities**         | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 Mocking support                   | -      | -      | -      | -      | via 3rd party |
 Logging facility                  |&#10003;|&#10003;|&#10003;| -      | &nbsp;|
 Logging levels                    | -      | -      | -      | -      | &nbsp;|
-Checkpoints                       | -      | -      | -      | -      | see [Boost.Test](#BTC) |
+Checkpoints                       | -      | -      | -      | -      | see Boost.Test [[11]](#BTC) |
 Test data generators              | -      |&#10003;|&#10003;| -      | &nbsp;|
 Property-based testing            | -      | -      | -      | -      | &nbsp;|
   &nbsp;                          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
@@ -126,7 +126,12 @@ Time duration of tests            | -      |&#10003;|&#10003;|&#10003;| &nbsp;|
 Control order of tests            |&#10003;|&#10003;|&#10003;|&#10003;| &nbsp;|
 Repeat tests                      | -      |&#10003;|&#10003;|&#10003;| &nbsp;|
   &nbsp;                          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
-**IDE integration**               | &nbsp; | &nbsp; | &nbsp; | &nbsp; | [[10]](#IDE) |
+**Code-related**                  | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
+Compile-time performance          | ?      | ?      | ?      | ?      | &nbsp;|
+Run-time performance              | ?      | ?      | ?      | ?      | &nbsp;|
+Size, LOC                         | 4,500  | 9,100  | ?      | 1,000  | &nbsp;|
+  &nbsp;                          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
+**IDE integration**               | &nbsp; | &nbsp; | &nbsp; | &nbsp; | see [[15]](#IDE) |
 C++ Builder                       | ?      | ?      | ?      | ?      | &nbsp;|
 Clion                             | ?      |&#10003;|&#10003;| ?      | &nbsp;|
 Code::Blocks                      | ?      | ?      | ?      | ?      | &nbsp;|
@@ -134,16 +139,17 @@ CodeLite                          | ?      | ?      | ?      | ?      | &nbsp;|
 Eclipse CDT                       | ?      | ?      | ?      | ?      | &nbsp;|
 KDevelop                          | ?      | ?      | ?      | ?      | &nbsp;|
 Qt Creator                        | ?      | ?      | ?      | ?      | &nbsp;|
-VisualMinGW                       | ?      | ?      | ?      | ?      | &nbsp;|
+Visual-MinGW                      | ?      | ?      | ?      | ?      | &nbsp;|
 Visual Studio                     | ?      | ?      | ?      | ?      | &nbsp;|
   &nbsp;                          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
-**Documentation of framework**    | &nbsp; | &nbsp; | &nbsp; | &nbsp; | [[11]](#WGD) |
+**Documentation of framework**    | &nbsp; | &nbsp; | &nbsp; | &nbsp; | see [[16]](#WGD) |
 First contact                     | ?      | ?      | ?      | ?      | new users |
 Education                         | ?      | ?      | ?      | ?      | new & existing users |
 Support                           | ?      | ?      | ?      | ?      | experienced users |
 Troubleshooting                   | ?      | ?      | ?      | ?      | annoyed users |
 Internals                         | ?      | ?      | ?      | ?      | fellow developers |
-Reference                         | ?      | ?      | ?      | ?      | Everyone|
+Reference                         | ?      | ?      | ?      | ?      | everyone|
+Try it online                     |&#10003;| -      | -      |&#10003;| &nbsp;|
   &nbsp;                          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 **Testing of framework itself**   | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
   &nbsp;                          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
@@ -157,16 +163,22 @@ vpkg                              |&#10003;| ?      | -      | -      | &nbsp;|
 
 References
 ----------
-<a id="CA1"></a>[1] Phils Nash. [Catch-1](https://github.com/philsquared/Catch/). 2010     
-<a id="CA2"></a>[2] Phils Nash. [Catch-2](https://github.com/philsquared/Catch/tree/dev-modernize). 2017?    
-<a id="DOT"></a>[3] Viktor Kirilov. [doctest](https://github.com/onqtam/doctest/). 2014.  
-<a id="LST"></a>[4] Martin Moene. [lest](https://github.com/martinmoene/lest/). 2013.  
-<a id="ULP"></a>[5] Joel Falcou. [Design rationale for using ULP with stf](https://github.com/jfalcou/stf/blob/master/doc/rationale.md)  
-<a id="BTC"></a>[6] Gennadiy Rozental and Raffi Enficiaud. [Checkpoints in Boost.Test](http://www.boost.org/doc/libs/1_64_0/libs/test/doc/html/boost_test/test_output/test_tools_support_for_logging/checkpoints.html).  
-<a id="C1M"></a>[7] [Matchers in Catch-1](https://github.com/philsquared/Catch/blob/master/docs/matchers.md).  
-<a id="C2M"></a>[8] [Matchers in Catch-2](https://github.com/philsquared/Catch/blob/master/docs/matchers.md).  
-<a id="HLM"></a>[9] [Matchers in lest: hamlest](https://github.com/martinmoene/hamlest).  
-<a id="IDE"></a>[10] Wikipedia. [List of C++ IDEs](https://en.wikipedia.org/wiki/Comparison_of_integrated_development_environments#C.2FC.2B.2B).  
-<a id="WGD"></a>[11] [Jacob Kaplan-Moss. Writing great documentation](https://www.slideshare.net/jacobian/writing-great-documentation-codeconf-2011).  
+
+<a id="KH1"></a>[1] Kevlin Henney. [Rethinking Unit Testing in C++](http://accu.org/index.php/accu_branches/accu_london/accu_london_may_2010) ([Video](http://skillsmatter.com/podcast/agile-testing/kevlin-henney-rethinking-unit-testing-in-c-plus-plus)). Skills Matter, May 2010.  
+<a id="PN1"></a>[2] Phil Nash. [The Ultimate C++ Unit Test Framework](http://www.levelofindirection.com/journal/2010/5/21/the-ultimate-c-unit-test-framework.html). Blog, May 2010.  
+<a id="PN2"></a>[3] Phil Nash. [Unit Testing in C++ and Objective-C just got easier](http://www.levelofindirection.com/journal/2010/12/28/unit-testing-in-c-and-objective-c-just-got-easier.html). Blog announcement, December 2010.  
+<a id="MM1"></a>[4] Martin Moene. [lest errors escape testing](). Blog announcement, June 2013.  
+<a id="VK1"></a>[5] Viktor Kirilov. [doctest – the Lightest C++ Unit Testing Framework](https://accu.org/index.php/journals/2343). Announcement in Overload 137, February 2017.  
+<a id="CA1"></a>[6] Phils Nash. [Catch-1 on GitHub](https://github.com/philsquared/Catch/). 2010.  
+<a id="CA2"></a>[7] Phils Nash. [Catch-2 on GitHub](https://github.com/philsquared/Catch/tree/dev-modernize). 2017?  
+<a id="DOT"></a>[8] Viktor Kirilov. [doctest on GitHub](https://github.com/onqtam/doctest/). 2014.  
+<a id="LST"></a>[9] Martin Moene. [lest on GitHub](https://github.com/martinmoene/lest/). 2013.  
+<a id="ULP"></a>[10] Joel Falcou. [Design rationale for using ULP with stf](https://github.com/jfalcou/stf/blob/master/doc/rationale.md).  
+<a id="BTC"></a>[11] Gennadiy Rozental and Raffi Enficiaud. [Checkpoints in Boost.Test](http://www.boost.org/doc/libs/1_64_0/libs/test/doc/html/boost_test/test_output/test_tools_support_for_logging/checkpoints.html).  
+<a id="C1M"></a>[12] [Matchers in Catch-1](https://github.com/philsquared/Catch/blob/master/docs/matchers.md).  
+<a id="C2M"></a>[13] [Matchers in Catch-2](https://github.com/philsquared/Catch/blob/master/docs/matchers.md).  
+<a id="HLM"></a>[14] [Matchers in lest: hamlest](https://github.com/martinmoene/hamlest).  
+<a id="IDE"></a>[15] Wikipedia. [List of C++ IDEs](https://en.wikipedia.org/wiki/Comparison_of_integrated_development_environments#C.2FC.2B.2B).  
+<a id="WGD"></a>[16] Jacob Kaplan-Moss. [Writing great documentation](https://www.slideshare.net/jacobian/writing-great-documentation-codeconf-2011).  
 
 <p style="height:60em;"></p>
