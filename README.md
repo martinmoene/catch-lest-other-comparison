@@ -43,6 +43,15 @@ Embedded (tiny)                   | ?      | ?      | ?      | ?      | &nbsp;|
 Embedded (largish)                | ?      | ?      | ?      |&#10003;| &nbsp;|
 Operating System                  | ?      | ?      | ?      |&#10003;| lest: IncludeOS |
   &nbsp;                          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
+**Documentation of framework**    | &nbsp; | &nbsp; | &nbsp; | &nbsp; | see [[16]](#WGD) |
+First contact                     | ?      | ?      | ?      | ?      | new users |
+Education                         | ?      | ?      | ?      | ?      | new & existing users |
+Support                           | ?      | ?      | ?      | ?      | experienced users |
+Troubleshooting                   | ?      | ?      | ?      | ?      | annoyed users |
+Internals                         | ?      | ?      | ?      | ?      | fellow developers |
+Reference                         | ?      | ?      | ?      | ?      | everyone|
+Try it online                     |&#10003;| -      | -      |&#10003;| &nbsp;|
+  &nbsp;                          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 **Test organisation**             | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 Suites of tests                   |&#10003;| -      | -      | -      | &nbsp;|
 Fixtures (sections)               |&#10003;|&#10003;|&#10003;|&#10003;| doctest: sub case |
@@ -161,15 +170,6 @@ KDevelop                          | ?      | ?      | ?      | ?      | &nbsp;|
 Qt Creator                        | ?      | ?      | ?      | ?      | &nbsp;|
 Visual-MinGW                      | ?      | ?      | ?      | ?      | &nbsp;|
 Visual Studio                     | ?      | ?      | ?      | ?      | &nbsp;|
-  &nbsp;                          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
-**Documentation of framework**    | &nbsp; | &nbsp; | &nbsp; | &nbsp; | see [[16]](#WGD) |
-First contact                     | ?      | ?      | ?      | ?      | new users |
-Education                         | ?      | ?      | ?      | ?      | new & existing users |
-Support                           | ?      | ?      | ?      | ?      | experienced users |
-Troubleshooting                   | ?      | ?      | ?      | ?      | annoyed users |
-Internals                         | ?      | ?      | ?      | ?      | fellow developers |
-Reference                         | ?      | ?      | ?      | ?      | everyone|
-Try it online                     |&#10003;| -      | -      |&#10003;| &nbsp;|
   &nbsp;                          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 **Static code analysis**          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 clang-tidy                        | ?      | ?      | ?      | ?      | &nbsp;|
