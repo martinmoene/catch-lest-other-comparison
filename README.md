@@ -137,6 +137,7 @@ Control order of tests            |&#10003;|&#10003;|&#10003;|&#10003;| &nbsp;|
 Repeat tests                      | -      |&#10003;|&#10003;|&#10003;| &nbsp;|
   &nbsp;                          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 **Code-related**                  | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
+Compiler warning friendly         | ?      | ?      | ?      | ?      | &nbsp;|
 Compile-time performance          | ?      | ?      | ?      | ?      | &nbsp;|
 Run-time performance              | ?      | ?      | ?      | ?      | &nbsp;|
 Can provide canned main()         |&#10003;|&#10003;|&#10003;| -      | &nbsp;|
@@ -169,6 +170,13 @@ Troubleshooting                   | ?      | ?      | ?      | ?      | annoyed 
 Internals                         | ?      | ?      | ?      | ?      | fellow developers |
 Reference                         | ?      | ?      | ?      | ?      | everyone|
 Try it online                     |&#10003;| -      | -      |&#10003;| &nbsp;|
+  &nbsp;                          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
+**Static code analysis**          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
+clang-tidy                        | ?      | ?      | ?      | ?      | &nbsp;|
+CppCheck                          | ?      | ?      | ?      | ?      | &nbsp;|
+CppCoreCheck                      | ?      | ?      | ?      | ?      | &nbsp;|
+PVC-Studio                        | ?      | ?      | ?      | ?      | &nbsp;|
+ReSharper C++                     | ?      | ?      | ?      | ?      | &nbsp;|
   &nbsp;                          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 **Testing of framework**          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 Unit tests                        |&#10003;|&#10003;|&#10003;|&#10003;| &nbsp;|
