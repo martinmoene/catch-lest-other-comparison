@@ -8,18 +8,24 @@ Note 2: Catch-2 is not yet released.
 
 Ideas, additions, corrections, signaling omissions, etc. welcome! 
 
-<!--
-**Some history**
+---
 
-- [Kevlin Henney on Rethinking Unit Testing in C++](http://accu.org/index.php/accu_branches/accu_london/accu_london_may_2010)  ([Video](http://skillsmatter.com/podcast/agile-testing/kevlin-henney-rethinking-unit-testing-in-c-plus-plus)).
-- December 2010 - Catch (blog)
-  - [The Ultimate C++ Unit Test Framework](http://www.levelofindirection.com/journal/2010/5/21/the-ultimate-c-unit-test-framework.html)
-  - [Unit Testing in C++ and Objective-C just got easier](http://www.levelofindirection.com/journal/2010/12/28/unit-testing-in-c-and-objective-c-just-got-easier.html) 
-- June 2013 - lest
-- May 2014 - doctest
+**The frameworks in this comparison share the following properties:**
 
-<p style="height:5em;"></style>
--->
+- The frameworks are available as single-file header-only library.
+- Test cases are described by a string, they are not identified by a function name.
+- There is a single assertion macro for expressions.   
+Expressions are decomposed and original expression code can be shown alongside the values they represent.
+- Fixtures can be created inside a test case. They are called sections or sub cases.
+
+**Advent of Catch**&emsp;Expression-decomposing assertions and function-level fixtures (sections) were introduced by Kevlin Henney in his talk *Rethinking Unit Testing in C++* at ACCU London in May 2010 [[1]](#KH1). At that time, Phil Nash was working on a testing framework called *YACUTS* (Yet Another C++ Unit Test System) that would bring similar capabilities, be it a little more intrusively [[2]](#PN1). Kevlin's talk inspired Phil to develop ***Catch*** [[3]](#PN2).
+
+**Kevlin's emphasis on simplicity** in testing and the desire to understand how expression decomposition works inspired Martin Moene to write ***lest*** [[4]](#MM1). The code of *lest* is intentionally kept small, so that it should be fairly easy to gain insight in how things work.
+
+**Accompanying test code with the code to test** was one of the drivers for Viktor Kirilov to write ***doctest*** [[5]](#VK1). Others are to enable using *doctest* with many different compilers and to shine in compile-time and run-time performance.
+
+<p>&nbsp;</p>
+
 <a id="table"></a>
 
 Feature                           | [doctest](#DOT)| [Catch-1](#CA1)| [Catch-2](#CA2)| [lest](#LST)| Notes |
@@ -130,6 +136,9 @@ Repeat tests                      | -      |&#10003;|&#10003;|&#10003;| &nbsp;|
 **Code-related**                  | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 Compile-time performance          | ?      | ?      | ?      | ?      | &nbsp;|
 Run-time performance              | ?      | ?      | ?      | ?      | &nbsp;|
+Can provide canned main()         |&#10003;|&#10003;|&#10003;| -      | &nbsp;|
+Only depends on C++ std library    |&#10003;|&#10003;|&#10003;|&#10003;| &nbsp;|
+Single-file header-only           |&#10003;|&#10003;|&#10003;|&#10003;| &nbsp;|
 Size, LOC                         | 4,500  | 9,100  | ?      | 1,000  | &nbsp;|
   &nbsp;                          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 **IDE integration**               | &nbsp; | &nbsp; | &nbsp; | &nbsp; | see [[15]](#IDE) |
