@@ -47,8 +47,8 @@ Operating System                  | ?      | ?      | ?      |&#10003;| lest: In
 Suites of tests                   |&#10003;| -      | -      | -      | &nbsp;|
 Fixtures (sections)               |&#10003;|&#10003;|&#10003;|&#10003;| doctest: sub case |
 Fixtures (class-based)            |&#10003;|&#10003;|&#10003;| -      | &nbsp;|
-Type parameterised tests          |&#10003;|&#10003;|&#10003;| -      | &nbsp;|
-Value parameterised tests         | -      | -      | -      | -      | &nbsp;|
+Type-parameterised tests          |&#10003;|&#10003;|&#10003;| -      | &nbsp;|
+Value-parameterised tests         | -      | -      | -      | -      | &nbsp;|
 Auto-registration of tests        |&#10003;|&#10003;|&#10003;|&#10003;| &nbsp;|
 Tabularised tests                 | -      | -      | -      |&#10003;| array of lambdas |
 Allow tests accompany code        |&#10003;| -      | -      | -      | &nbsp;|
