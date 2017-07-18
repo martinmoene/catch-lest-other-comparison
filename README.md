@@ -73,6 +73,7 @@ Logging levels                    | -      | -      | -      | -      | &nbsp;|
 Checkpoints                       | -      | -      | -      | -      | see Boost.Test [[11]](#BTC) |
 Test data generators              | -      |&#10003;|&#10003;| -      | &nbsp;|
 Property-based testing            | -      | -      | -      | -      | &nbsp;|
+Obtain name of current test       | ?      | ?      | ?      | ?      | &nbsp;|
   &nbsp;                          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 **API / seams**                   | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 Reporting user-defined types      |&#10003;|&#10003;|&#10003;|&#10003;| &nbsp;|
@@ -144,6 +145,7 @@ Single-file header-only           |&#10003;|&#10003;|&#10003;|&#10003;| &nbsp;|
 Size, LOC                         | 4,500  | 9,100  | ?      | 1,000  | &nbsp;|
   &nbsp;                          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 **Platforms**                     | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
+Cygwin                            | ?      | ?      | ?      | ?      | &nbsp;|
 macOS                             |&#10003;|&#10003;|&#10003;|&#10003;| &nbsp;|
 Unix/Linux                        |&#10003;|&#10003;|&#10003;|&#10003;| &nbsp;|
 Windows                           |&#10003;|&#10003;|&#10003;|&#10003;| &nbsp;|
