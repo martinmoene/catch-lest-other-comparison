@@ -58,10 +58,10 @@ Assert expressions                |&#10003;|&#10003;|&#10003;|&#10003;| &nbsp;|
 Assert exceptions                 |&#10003;|&#10003;|&#10003;|&#10003;| &nbsp;|
 Assert abortion (death)           | -      | -      | -      | -      | &nbsp;|
 Assert assertions (death)         | -      | -      | -      | -      | &nbsp;|
+Expression decomposition          |&#10003;|&#10003;|&#10003;|&#10003;| see [[2]](#PN1) |
 Floating point comparison, approx |&#10003;|&#10003;|&#10003;|&#10003;| &nbsp;|
 Floating point comparison, ulp    | -      | -      | -      | -      | see stf [[10]](#ULP)|
 Hamcrest matchers                 | ?      |[limited](#C1M)|[limited](#C1M)|[hamlest](#HLM)| &nbsp;|
-Expression decomposition          |&#10003;|&#10003;|&#10003;|&#10003;| see [[2]](#PN1) |
 Macros with and without prefix    |&#10003;|&#10003;|&#10003;|&#10003;| CATCH_CHECK(), CHECK()|
   &nbsp;                          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 **Other test facilities**         | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
