@@ -30,6 +30,8 @@ Expressions are decomposed and original expression code can be shown alongside t
 
 Feature                           | [doctest](#DOT)| [Catch-1](#CA1)| [Catch-2](#CA2)| [lest](#LST)| Notes |
 ----------------------------------|:------:|:------:|:------:|:-------|-------|
+**License**                       | MIT    |BSL-1.0 | &nbsp; |BSL-1.0 | &nbsp;|
+  &nbsp;                          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 **C++ standard related**          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 C++ standard                      | C++98  | C++98  | C++11  | C++11  | &nbsp;|
 Can work without exceptions       |&#10003;| -      | -      | -      | reduced functionality |
@@ -137,9 +139,13 @@ Repeat tests                      | -      |&#10003;|&#10003;|&#10003;| &nbsp;|
 Compile-time performance          | ?      | ?      | ?      | ?      | &nbsp;|
 Run-time performance              | ?      | ?      | ?      | ?      | &nbsp;|
 Can provide canned main()         |&#10003;|&#10003;|&#10003;| -      | &nbsp;|
-Only depends on C++ std library    |&#10003;|&#10003;|&#10003;|&#10003;| &nbsp;|
+Only depends on C++ std library   |&#10003;|&#10003;|&#10003;|&#10003;| &nbsp;|
 Single-file header-only           |&#10003;|&#10003;|&#10003;|&#10003;| &nbsp;|
 Size, LOC                         | 4,500  | 9,100  | ?      | 1,000  | &nbsp;|
+  &nbsp;                          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
+**Platforms**                     | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
+Linux/Unix                        |&#10003;|&#10003;|&#10003;|&#10003;| &nbsp;|
+Windows                           |&#10003;|&#10003;|&#10003;|&#10003;| &nbsp;|
   &nbsp;                          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 **IDE integration**               | &nbsp; | &nbsp; | &nbsp; | &nbsp; | see [[15]](#IDE) |
 C++ Builder                       | ?      | ?      | ?      | ?      | &nbsp;|
