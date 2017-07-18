@@ -167,7 +167,7 @@ Try it online                     |&#10003;| -      | -      |&#10003;| &nbsp;|
 GitHub single-file download       |&#10003;|&#10003;| -      |&#10003;| from the landing page |
 conan                             |&#10003;|&#10003;| -      | -      | &nbsp;|
 hunter                            |&#10003;| ?      | -      | -      | &nbsp;|
-vpkg                              |&#10003;| ?      | -      | -      | &nbsp;|
+vcpkg                             |&#10003;|&#10003;| -      | -      | &nbsp;|
   &nbsp;                          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 
 
