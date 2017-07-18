@@ -144,7 +144,8 @@ Single-file header-only           |&#10003;|&#10003;|&#10003;|&#10003;| &nbsp;|
 Size, LOC                         | 4,500  | 9,100  | ?      | 1,000  | &nbsp;|
   &nbsp;                          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 **Platforms**                     | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
-Linux/Unix                        |&#10003;|&#10003;|&#10003;|&#10003;| &nbsp;|
+macOS                             |&#10003;|&#10003;|&#10003;|&#10003;| &nbsp;|
+Unix/Linux                        |&#10003;|&#10003;|&#10003;|&#10003;| &nbsp;|
 Windows                           |&#10003;|&#10003;|&#10003;|&#10003;| &nbsp;|
   &nbsp;                          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 **IDE integration**               | &nbsp; | &nbsp; | &nbsp; | &nbsp; | see [[15]](#IDE) |
