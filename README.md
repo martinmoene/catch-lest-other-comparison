@@ -170,7 +170,13 @@ Internals                         | ?      | ?      | ?      | ?      | fellow d
 Reference                         | ?      | ?      | ?      | ?      | everyone|
 Try it online                     |&#10003;| -      | -      |&#10003;| &nbsp;|
   &nbsp;                          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
-**Testing of framework itself**   | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
+**Testing of framework**          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
+Unit tests                        |&#10003;|&#10003;|&#10003;|&#10003;| &nbsp;|
+Tests itself                      |&#10003;|&#10003;|&#10003;|&#10003;| &nbsp;|
+Baseline tests                    |&#10003;|&#10003;|&#10003;| -      | &nbsp;|
+CI testing (online)               |&#10003;|&#10003;|&#10003;|&#10003;| &nbsp;|
+Coverage scan                     |&#10003;| -      | -      | -      | &nbsp;|
+Coverity scan                     |&#10003;| -      | -      | -      | &nbsp;|
   &nbsp;                          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 **Distribution of framework**     | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 GitHub single-file download       |&#10003;|&#10003;| -      |&#10003;| from the landing page |
