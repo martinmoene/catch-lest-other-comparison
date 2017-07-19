@@ -35,7 +35,7 @@ Feature                           | [doctest](#DOT)| [Catch-1](#CA1)| [Catch-2](
 **C++ standard related**          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 C++ standard                      | C++98  | C++98  | C++11  | C++11  | &nbsp;|
 Can work without exceptions       |&#10003;| -      | -      | -      | reduced functionality |
-Requires RTTI                     | -      | ?      | ?      | -      | &nbsp;|
+Requires RTTI                     | -      | -      | -      | -      | &nbsp;|
   &nbsp;                          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 **Fields of use**                 | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 Desktop                           |&#10003;|&#10003;|&#10003;|&#10003;| &nbsp;|
