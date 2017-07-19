@@ -155,10 +155,21 @@ Single-file header-only           |&#10003;|&#10003;|&#10003;|&#10003;| &nbsp;|
 Size, LOC                         | 4,500  | 9,100  | ?      | 1,000  | &nbsp;|
   &nbsp;                          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 **Platforms**                     | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
-Cygwin                            | ?      | ?      | ?      | ?      | &nbsp;|
-macOS                             |&#10003;|&#10003;|&#10003;|&#10003;| &nbsp;|
-Unix/Linux                        |&#10003;|&#10003;|&#10003;|&#10003;| &nbsp;|
-Windows                           |&#10003;|&#10003;|&#10003;|&#10003;| &nbsp;|
+AIX / XL                          | ?      | 11.1.0 | ?      | ?      | Catch-1: 2013 |
+OSX / clang                       | ?      | ?      | ?      | ?      | &nbsp;|
+OSX / gcc                         | ?      | ?      | ?      | ?      | &nbsp;|
+OSX / XCode / clang               | 6.4-8.3| 7.3-8  | 7.3-8  | ?      | source: Travis |
+OSX / XCode / gcc                 | 6.4-7.3| 7.3-8  | 7.3-8  | ?      | source: Travis |
+Linux / clang                     | 3.4-4  | 3.4-3.8| 3.5-3.8| 3.6-3.7| source: Travis |
+Linux / gcc                       | 4.4-6  | 4.4-6  | 4.8-6  | 4.9-5  | source: Travis |
+Solaris / SunPro                  | ?      | 5.12.0 | ?      | ?      | Catch-1: 2013 |
+Windows / clang                   | ?      | ?      | ?      | 3.2+   | &nbsp;|
+Windows / gcc                     | ?      | ?      | ?      | 4.8.1+ | &nbsp;|
+Windows / Visual C++              | 9-15   | 10-15  | 14-15  | 12-15  | Catch-1: possibly from 8 |
+Windows / Cygwin / clang          | ?      | ?      | ?      | ?      | &nbsp;|
+Windows / Cygwin / gcc            | ?      | ?      | ?      | ?      | &nbsp;|
+Windows / msys2 / clang           | ?      | ?      | ?      | ?      | &nbsp;|
+Windows / msys2 / gcc             | ?      | ?      | ?      | ?      | &nbsp;|
   &nbsp;                          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 **IDE integration**               | &nbsp; | &nbsp; | &nbsp; | &nbsp; | see [[15]](#IDE) |
 C++ Builder                       | ?      | ?      | ?      | ?      | &nbsp;|
