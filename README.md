@@ -145,6 +145,17 @@ Time duration of tests            | -      |&#10003;|&#10003;|&#10003;| &nbsp;|
 Control order of tests            |&#10003;|&#10003;|&#10003;|&#10003;| &nbsp;|
 Repeat tests                      | -      |&#10003;|&#10003;|&#10003;| &nbsp;|
   &nbsp;                          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
+**IDE integration**               | &nbsp; | &nbsp; | &nbsp; | &nbsp; | see [[15]](#IDE) |
+C++ Builder                       | ?      | ?      | ?      | ?      | &nbsp;|
+Clion                             | ?      |&#10003;|&#10003;| ?      | &nbsp;|
+Code::Blocks                      | ?      | ?      | ?      | ?      | &nbsp;|
+CodeLite                          | ?      | ?      | ?      | ?      | &nbsp;|
+Eclipse CDT                       | ?      | ?      | ?      | ?      | &nbsp;|
+KDevelop                          | ?      | ?      | ?      | ?      | &nbsp;|
+Qt Creator                        | ?      | ?      | ?      | ?      | &nbsp;|
+Visual-MinGW                      | ?      | ?      | ?      | ?      | &nbsp;|
+Visual Studio                     | ?      | ?      | ?      | ?      | &nbsp;|
+  &nbsp;                          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 **Code-related**                  | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 Compiler warning friendly         | ?      | ?      | ?      | ?      | &nbsp;|
 Compile-time performance          | ?      | ?      | ?      | ?      | &nbsp;|
@@ -171,31 +182,25 @@ Windows / Cygwin / gcc            | ?      | ?      | ?      | ?      | &nbsp;|
 Windows / msys2 / clang           | ?      | ?      | ?      | ?      | &nbsp;|
 Windows / msys2 / gcc             | ?      | ?      | ?      | ?      | &nbsp;|
   &nbsp;                          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
-**IDE integration**               | &nbsp; | &nbsp; | &nbsp; | &nbsp; | see [[15]](#IDE) |
-C++ Builder                       | ?      | ?      | ?      | ?      | &nbsp;|
-Clion                             | ?      |&#10003;|&#10003;| ?      | &nbsp;|
-Code::Blocks                      | ?      | ?      | ?      | ?      | &nbsp;|
-CodeLite                          | ?      | ?      | ?      | ?      | &nbsp;|
-Eclipse CDT                       | ?      | ?      | ?      | ?      | &nbsp;|
-KDevelop                          | ?      | ?      | ?      | ?      | &nbsp;|
-Qt Creator                        | ?      | ?      | ?      | ?      | &nbsp;|
-Visual-MinGW                      | ?      | ?      | ?      | ?      | &nbsp;|
-Visual Studio                     | ?      | ?      | ?      | ?      | &nbsp;|
-  &nbsp;                          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
-**Static code analysis**          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
-clang-tidy                        | ?      | ?      | ?      | ?      | &nbsp;|
-CppCheck                          | ?      | ?      | ?      | ?      | &nbsp;|
-CppCoreCheck                      | ?      | ?      | ?      | ?      | &nbsp;|
-PVC-Studio                        | ?      | ?      | ?      | ?      | &nbsp;|
-ReSharper C++                     | ?      | ?      | ?      | ?      | &nbsp;|
-  &nbsp;                          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 **Testing of framework**          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 Unit tests                        |&#10003;|&#10003;|&#10003;|&#10003;| &nbsp;|
 Tests itself                      |&#10003;|&#10003;|&#10003;|&#10003;| &nbsp;|
 Baseline tests                    |&#10003;|&#10003;|&#10003;| -      | &nbsp;|
-CI testing (online)               |&#10003;|&#10003;|&#10003;|&#10003;| &nbsp;|
+  &nbsp;                          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
+**CI testing**                    | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
+Travis                            |&#10003;|&#10003;|&#10003;|&#10003;| &nbsp;|
+Appveyor                          |&#10003;|&#10003;|&#10003;|&#10003;| &nbsp;|
 Coverage scan                     |&#10003;| -      | -      | -      | &nbsp;|
 Coverity scan                     |&#10003;| -      | -      | -      | &nbsp;|
+  &nbsp;                          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
+**CI static code analysis**       | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
+clang-tidy                        |&#10003;| ?      | ?      | ?      | &nbsp;|
+CppCheck                          |&#10003;| ?      | ?      | ?      | &nbsp;|
+CppCoreCheck                      | ?      | ?      | ?      | ?      | &nbsp;|
+PVC-Studio                        | ?      | ?      | ?      | ?      | &nbsp;|
+OCLint                            |&#10003;| ?      | ?      | ?      | &nbsp;|
+ReSharper C++                     | ?      | ?      | ?      | ?      | &nbsp;|
+Visual Studio                     |&#10003;| ?      | ?      | ?      | &nbsp;|
   &nbsp;                          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 **Distribution of framework**     | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 GitHub single-file download       |&#10003;|&#10003;| -      |&#10003;| from the landing page |
