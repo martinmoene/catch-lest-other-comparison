@@ -78,7 +78,7 @@ Hamcrest matchers                 | ?      |[limited](#C1M)|[limited](#C1M)|[ham
 Macros with and without prefix    |&#10003;|&#10003;|&#10003;|&#10003;| CATCH_CHECK(), CHECK()|
   &nbsp;                          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 **Other test facilities**         | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
-Mocking support                   | -      | -      | -      | -      | via 3rd party |
+Mocking support                   | &bull; | &bull; | &bull; | &bull; | via 3rd party |
 Logging facility                  |&#10003;|&#10003;|&#10003;| -      | &nbsp;|
 Logging levels                    | -      | -      | -      | -      | &nbsp;|
 Checkpoints                       | -      | -      | -      | -      | see Boost.Test [[11]](#BTC) |
@@ -156,7 +156,7 @@ Eclipse CDT                       | ?      | ?      | ?      | ?      | &nbsp;|
 KDevelop                          | ?      | ?      | ?      | ?      | &nbsp;|
 Qt Creator                        | ?      | ?      | ?      | ?      | &nbsp;|
 Visual-MinGW                      | ?      | ?      | ?      | ?      | &nbsp;|
-Visual Studio                     | ?      | ?      | ?      | ?      | &nbsp;|
+Visual Studio                     | -      | &bull; | &bull; | -      | via ReSharper C++ |
   &nbsp;                          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 **Code-related**                  | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 Compiler warning friendly         | ?      | ?      | ?      | ?      | &nbsp;|
@@ -204,13 +204,13 @@ Coverage scan                     |&#10003;| -      | -      | -      | &nbsp;|
 Coverity scan                     |&#10003;| -      | -      | -      | &nbsp;|
   &nbsp;                          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 **CI static code analysis**       | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
-clang-tidy                        |&#10003;| ?      | ?      | ?      | &nbsp;|
-CppCheck                          |&#10003;| ?      | ?      | ?      | &nbsp;|
-CppCoreCheck                      | ?      | ?      | ?      | ?      | &nbsp;|
-PVC-Studio                        | ?      | ?      | ?      | ?      | &nbsp;|
-OCLint                            |&#10003;| ?      | ?      | ?      | &nbsp;|
-ReSharper C++                     | ?      | ?      | ?      | ?      | &nbsp;|
-Visual Studio                     |&#10003;| ?      | ?      | ?      | &nbsp;|
+clang-tidy                        |&#10003;| -      | -      | -      | &nbsp;|
+CppCheck                          |&#10003;| -      | -      | -      | &nbsp;|
+CppCoreCheck                      | -      | -      | -      | -      | &nbsp;|
+PVC-Studio                        | -      | -      | -      | -      | &nbsp;|
+OCLint                            |&#10003;| -      | -      | -      | &nbsp;|
+ReSharper C++                     | -      | -      | -      | -      | &nbsp;|
+Visual Studio                     |&#10003;| -      | -      | -      | &nbsp;|
   &nbsp;                          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 **Distribution of framework**     | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 GitHub single-file download       |&#10003;|&#10003;| -      |&#10003;| from the landing page |
