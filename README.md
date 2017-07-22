@@ -51,6 +51,8 @@ Troubleshooting                   | ?      | ?      | ?      | ?      | annoyed 
 Internals                         | ?      | ?      | ?      | ?      | fellow developers |
 Reference                         | ?      | ?      | ?      | ?      | everyone|
 Try it online                     |&#10003;| -      | -      |&#10003;| &nbsp;|
+Forum                             | -      |&#10003;|&#10003;| -      | Catch: Google group |
+Chat                              |&#10003;| -      | -      | -      | doctest: Gitter &nbsp;|
   &nbsp;                          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 **Test organisation**             | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 Suites of tests                   |&#10003;| -      | -      | -      | &nbsp;|
@@ -182,6 +184,14 @@ Windows / Cygwin / gcc            | ?      | ?      | ?      | ?      | &nbsp;|
 Windows / msys2 / clang           | ?      | ?      | ?      | ?      | &nbsp;|
 Windows / msys2 / gcc             | ?      | ?      | ?      | ?      | &nbsp;|
   &nbsp;                          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
+**Quality of project**            | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
+Follows CII best practices        |&#10003;| ?      | ?      | ?      | see [[17]](#CII)|
+  &nbsp;                          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
+**Quality of code**               | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
+Unit testing                      |&#10003;|&#10003;|&#10003;|&#10003;| details below |
+CI testing                        |&#10003;|&#10003;|&#10003;|&#10003;| details below |
+CI static code anaylisis          |&#10003;| -      | -      | -      | details below |
+  &nbsp;                          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 **Testing of framework**          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 Unit tests                        |&#10003;|&#10003;|&#10003;|&#10003;| &nbsp;|
 Tests itself                      |&#10003;|&#10003;|&#10003;|&#10003;| &nbsp;|
@@ -229,5 +239,6 @@ References
 <a id="HLM"></a>[14] [Matchers in lest: hamlest](https://github.com/martinmoene/hamlest).  
 <a id="IDE"></a>[15] Wikipedia. [List of C++ IDEs](https://en.wikipedia.org/wiki/Comparison_of_integrated_development_environments#C.2FC.2B.2B).  
 <a id="WGD"></a>[16] Jacob Kaplan-Moss. [Writing great documentation](https://www.slideshare.net/jacobian/writing-great-documentation-codeconf-2011).  
+<a id="CII"></a>[17] Linux Foundation (LF). [CII Best Practices](https://bestpractices.coreinfrastructure.org/).  
 
 <p style="height:60em;"></p>
