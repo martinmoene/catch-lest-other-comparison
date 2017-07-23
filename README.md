@@ -43,7 +43,7 @@ Embedded (tiny)                   | ?      | ?      | ?      | ?      | &nbsp;|
 Embedded (largish)                | ?      | ?      | ?      |&#10003;| &nbsp;|
 Operating System                  | ?      | ?      | ?      |&#10003;| lest: IncludeOS |
   &nbsp;                          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
-**Documentation of framework**    | &nbsp; | &nbsp; | &nbsp; | &nbsp; | see [[18]](#WGD) |
+**Documentation of framework**    | &nbsp; | &nbsp; | &nbsp; | &nbsp; | see [[19]](#WGD) |
 First contact                     | ?      | ?      | ?      | ?      | new users |
 Education                         | ?      | ?      | ?      | ?      | new & existing users |
 Support                           | ?      | ?      | ?      | ?      | experienced users |
@@ -53,6 +53,7 @@ Reference                         | ?      | ?      | ?      | ?      | everyone
 Try it online                     |&#10003;| -      | -      |&#10003;| &nbsp;|
 Forum                             | -      |&#10003;|&#10003;| -      | Catch: Google group |
 Chat                              |&#10003;| -      | -      | -      | doctest: Gitter &nbsp;|
+StackOverflow tag              | -      |&#10003;|&#10003;| -      | see [[16]](#SOC) |
   &nbsp;                          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 **Test organisation**             | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 Suites of tests                   |&#10003;| -      | -      | -      | &nbsp;|
@@ -160,8 +161,8 @@ Visual Studio                     | -      | &bull; | &bull; | -      | Catch: v
   &nbsp;                          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 **Code-related**                  | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 Compiler-warning friendly         | ?      | ?      | ?      | ?      | &nbsp;|
-Compile-time performance, relative| &#9734;&#9734;&#9734;|&#9734;&#9734;| ? | ? | see [[16]](#DTB) |
-Run-time performance, relative    | &#9734;&#9734;&#9734;|&#9734;&#9734;| ? | ? | see [[16]](#DTB) |
+Compile-time performance, relative| &#9734;&#9734;&#9734;|&#9734;&#9734;| ? | ? | see [[17]](#DTB) |
+Run-time performance, relative    | &#9734;&#9734;&#9734;|&#9734;&#9734;| ? | ? | see [[17]](#DTB) |
 Can provide canned main()         |&#10003;|&#10003;|&#10003;| -      | &nbsp;|
 Only depends on C++ std library   |&#10003;|&#10003;|&#10003;|&#10003;| &nbsp;|
 Single-file header-only           |&#10003;|&#10003;|&#10003;|&#10003;| &nbsp;|
@@ -185,7 +186,7 @@ Windows / msys2 / clang           | ?      | ?      | ?      | ?      | &nbsp;|
 Windows / msys2 / gcc             | ?      | ?      | ?      | ?      | &nbsp;|
   &nbsp;                          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 **Quality of project**            | &nbsp; | &nbsp; | &nbsp; | &nbsp; | note: challenge *42* |
-Follows CII best practices        |&#10003;| ?      | ?      | ?      | see [[17]](#CII)|
+Follows CII best practices        |&#10003;| ?      | ?      | ?      | see [[18]](#CII)|
   &nbsp;                          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 **Quality of code**               | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 Unit testing                      |&#10003;|&#10003;|&#10003;|&#10003;| details below |
@@ -238,8 +239,10 @@ References
 <a id="C2M"></a>[13] [Matchers in Catch-2](https://github.com/philsquared/Catch/blob/master/docs/matchers.md).  
 <a id="HLM"></a>[14] [Matchers in lest: hamlest](https://github.com/martinmoene/hamlest).  
 <a id="IDE"></a>[15] Wikipedia. [List of C++ IDEs](https://en.wikipedia.org/wiki/Comparison_of_integrated_development_environments#C.2FC.2B.2B).  
-<a id="DTB"></a>[16] Viktor Kirilov. [doctest Benchmarks](https://github.com/onqtam/doctest/blob/master/doc/markdown/benchmarks.md#benchmarks). May 2017.  
-<a id="CII"></a>[17] Linux Foundation (LF). [CII Best Practices](https://bestpractices.coreinfrastructure.org/).  
-<a id="WGD"></a>[18] Jacob Kaplan-Moss. [Writing great documentation](https://www.slideshare.net/jacobian/writing-great-documentation-codeconf-2011).  
+<a id="SOC"></a>[16] StackOverflow. [Questions tagged catch-unit-test](https://stackoverflow.com/questions/tagged/catch-unit-test).  
+<a id="DTB"></a>[17] Viktor Kirilov. [doctest Benchmarks](https://github.com/onqtam/doctest/blob/master/doc/markdown/benchmarks.md#benchmarks). May 2017.  
+<a id="CII"></a>[18] Linux Foundation (LF). [CII Best Practices](https://bestpractices.coreinfrastructure.org/).  
+<a id="WGD"></a>[19] Jacob Kaplan-Moss. [Writing great documentation](https://www.slideshare.net/jacobian/writing-great-documentation-codeconf-2011).  
+
 
 <p style="height:60em;"></p>
