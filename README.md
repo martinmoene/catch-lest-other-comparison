@@ -82,9 +82,9 @@ Mocking support                   | &bull; | &bull; | &bull; | &bull; | via 3rd 
 Logging facility                  |&#10003;|&#10003;|&#10003;| -      | &nbsp;|
 Logging levels                    | -      | -      | -      | -      | &nbsp;|
 Checkpoints                       | -      | -      | -      | -      | see Boost.Test [[11]](#BTC) |
-Test data generators              | -      |&#10003;|&#10003;| -      | &nbsp;|
+Test data generators              | -      | &bull; |&#10003;| -      | Cach-1: undocumented |
 Property-based testing            | -      | -      | -      | -      | &nbsp;|
-Obtain name of current test       | ?      | &bull; | ?      | -      | Catch: undocumented |
+Obtain name of current test       | ?      | &bull; | ?      | -      | Catch-1: undocumented |
   &nbsp;                          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 **API / seams**                   | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 Reporting user-defined types      |&#10003;|&#10003;|&#10003;|&#10003;| &nbsp;|
@@ -159,7 +159,7 @@ Visual-MinGW                      | ?      | ?      | ?      | ?      | &nbsp;|
 Visual Studio                     | -      | &bull; | &bull; | -      | Catch: via ReSharper C++ |
   &nbsp;                          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 **Code-related**                  | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
-Compiler warning friendly         | ?      | ?      | ?      | ?      | &nbsp;|
+Compiler-warning friendly         | ?      | ?      | ?      | ?      | &nbsp;|
 Compile-time performance, relative| &#9734;&#9734;&#9734;|&#9734;&#9734;| ? | ? | see [[16]](#DTB) |
 Run-time performance, relative    | &#9734;&#9734;&#9734;|&#9734;&#9734;| ? | ? | see [[16]](#DTB) |
 Can provide canned main()         |&#10003;|&#10003;|&#10003;| -      | &nbsp;|
@@ -226,7 +226,7 @@ References
 <a id="KH1"></a>[1] Kevlin Henney. [Rethinking Unit Testing in C++](http://accu.org/index.php/accu_branches/accu_london/accu_london_may_2010) ([Video](http://skillsmatter.com/podcast/agile-testing/kevlin-henney-rethinking-unit-testing-in-c-plus-plus)). Skills Matter, May 2010.  
 <a id="PN1"></a>[2] Phil Nash. [The Ultimate C++ Unit Test Framework](http://www.levelofindirection.com/journal/2010/5/21/the-ultimate-c-unit-test-framework.html). Blog, May 2010.  
 <a id="PN2"></a>[3] Phil Nash. [Unit Testing in C++ and Objective-C just got easier](http://www.levelofindirection.com/journal/2010/12/28/unit-testing-in-c-and-objective-c-just-got-easier.html). Blog announcement, December 2010.  
-<a id="MM1"></a>[4] Martin Moene. [lest errors escape testing](). Blog announcement, June 2013.  
+<a id="MM1"></a>[4] Martin Moene. [lest errors escape testing](http://martin-moene.blogspot.nl/2013/06/lest-tiny-c11-unittest-helper.html). Blog announcement, June 2013.  
 <a id="VK1"></a>[5] Viktor Kirilov. [doctest – the Lightest C++ Unit Testing Framework](https://accu.org/index.php/journals/2343). Announcement in Overload 137, February 2017.  
 <a id="CA1"></a>[6] Phils Nash. [Catch-1 on GitHub](https://github.com/philsquared/Catch/). 2010.  
 <a id="CA2"></a>[7] Phils Nash. [Catch-2 on GitHub](https://github.com/philsquared/Catch/tree/dev-modernize). 2017?  
