@@ -184,7 +184,7 @@ Windows / Cygwin / gcc            | ?      | ?      | ?      | ?      | &nbsp;|
 Windows / msys2 / clang           | ?      | ?      | ?      | ?      | &nbsp;|
 Windows / msys2 / gcc             | ?      | ?      | ?      | ?      | &nbsp;|
   &nbsp;                          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
-**Quality of project**            | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
+**Quality of project**            | &nbsp; | &nbsp; | &nbsp; | &nbsp; | note: challenge *42* |
 Follows CII best practices        |&#10003;| ?      | ?      | ?      | see [[17]](#CII)|
   &nbsp;                          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 **Quality of code**               | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
