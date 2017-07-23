@@ -29,7 +29,7 @@ Expressions are decomposed and original expression code can be shown alongside t
 <a id="table"></a>
 
 Feature                           | [doctest](#DOT)| [Catch-1](#CA1)| [Catch-2](#CA2)| [lest](#LST)| Notes |
-----------------------------------|:------:|:------:|:------:|:-------|-------|
+----------------------------------|:------:|:------:|:------:|:------:|-------|
 **License**                       | MIT    |BSL-1.0 | &nbsp; |BSL-1.0 | &nbsp;|
   &nbsp;                          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 **C++ standard related**          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
@@ -43,7 +43,7 @@ Embedded (tiny)                   | ?      | ?      | ?      | ?      | &nbsp;|
 Embedded (largish)                | ?      | ?      | ?      |&#10003;| &nbsp;|
 Operating System                  | ?      | ?      | ?      |&#10003;| lest: IncludeOS |
   &nbsp;                          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
-**Documentation of framework**    | &nbsp; | &nbsp; | &nbsp; | &nbsp; | see [[16]](#WGD) |
+**Documentation of framework**    | &nbsp; | &nbsp; | &nbsp; | &nbsp; | see [[18]](#WGD) |
 First contact                     | ?      | ?      | ?      | ?      | new users |
 Education                         | ?      | ?      | ?      | ?      | new & existing users |
 Support                           | ?      | ?      | ?      | ?      | experienced users |
@@ -84,7 +84,7 @@ Logging levels                    | -      | -      | -      | -      | &nbsp;|
 Checkpoints                       | -      | -      | -      | -      | see Boost.Test [[11]](#BTC) |
 Test data generators              | -      |&#10003;|&#10003;| -      | &nbsp;|
 Property-based testing            | -      | -      | -      | -      | &nbsp;|
-Obtain name of current test       | ?      | ?      | ?      | ?      | &nbsp;|
+Obtain name of current test       | ?      | &bull; | ?      | -      | Catch: undocumented |
   &nbsp;                          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 **API / seams**                   | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 Reporting user-defined types      |&#10003;|&#10003;|&#10003;|&#10003;| &nbsp;|
@@ -156,12 +156,12 @@ Eclipse CDT                       | ?      | ?      | ?      | ?      | &nbsp;|
 KDevelop                          | ?      | ?      | ?      | ?      | &nbsp;|
 Qt Creator                        | ?      | ?      | ?      | ?      | &nbsp;|
 Visual-MinGW                      | ?      | ?      | ?      | ?      | &nbsp;|
-Visual Studio                     | -      | &bull; | &bull; | -      | via ReSharper C++ |
+Visual Studio                     | -      | &bull; | &bull; | -      | Catch: via ReSharper C++ |
   &nbsp;                          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 **Code-related**                  | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 Compiler warning friendly         | ?      | ?      | ?      | ?      | &nbsp;|
-Compile-time performance          | ?      | ?      | ?      | ?      | &nbsp;|
-Run-time performance              | ?      | ?      | ?      | ?      | &nbsp;|
+Compile-time performance, relative| &#9734;&#9734;&#9734;|&#9734;&#9734;| ? | ? | see [[16]](#DTB) |
+Run-time performance, relative    | &#9734;&#9734;&#9734;|&#9734;&#9734;| ? | ? | see [[16]](#DTB) |
 Can provide canned main()         |&#10003;|&#10003;|&#10003;| -      | &nbsp;|
 Only depends on C++ std library   |&#10003;|&#10003;|&#10003;|&#10003;| &nbsp;|
 Single-file header-only           |&#10003;|&#10003;|&#10003;|&#10003;| &nbsp;|
@@ -238,7 +238,8 @@ References
 <a id="C2M"></a>[13] [Matchers in Catch-2](https://github.com/philsquared/Catch/blob/master/docs/matchers.md).  
 <a id="HLM"></a>[14] [Matchers in lest: hamlest](https://github.com/martinmoene/hamlest).  
 <a id="IDE"></a>[15] Wikipedia. [List of C++ IDEs](https://en.wikipedia.org/wiki/Comparison_of_integrated_development_environments#C.2FC.2B.2B).  
-<a id="WGD"></a>[16] Jacob Kaplan-Moss. [Writing great documentation](https://www.slideshare.net/jacobian/writing-great-documentation-codeconf-2011).  
+<a id="DTB"></a>[16] Viktor Kirilov. [doctest Benchmarks](https://github.com/onqtam/doctest/blob/master/doc/markdown/benchmarks.md#benchmarks). May 2017.  
 <a id="CII"></a>[17] Linux Foundation (LF). [CII Best Practices](https://bestpractices.coreinfrastructure.org/).  
+<a id="WGD"></a>[18] Jacob Kaplan-Moss. [Writing great documentation](https://www.slideshare.net/jacobian/writing-great-documentation-codeconf-2011).  
 
 <p style="height:60em;"></p>
