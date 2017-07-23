@@ -192,7 +192,7 @@ Follows CII best practices        |&#10003;| ?      | ?      | ?      | see [[18
 **Quality of code**               | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 Unit testing                      |&#10003;|&#10003;|&#10003;|&#10003;| details below |
 CI testing                        |&#10003;|&#10003;|&#10003;|&#10003;| details below |
-CI static code anaylisis          |&#10003;| -      | -      | -      | details below |
+CI code anaylisis                 |&#10003;| -      | -      | -      | details below |
   &nbsp;                          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 **Testing of framework**          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 Unit tests                        |&#10003;|&#10003;|&#10003;|&#10003;| &nbsp;|
