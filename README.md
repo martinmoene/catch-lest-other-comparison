@@ -161,7 +161,7 @@ Visual-MinGW                      | ?      | ?      | ?      | ?      | &nbsp;|
 Visual Studio                     | -      | &bull; | &bull; | -      | Catch: via ReSharper C++ |
   &nbsp;                          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 **Code-related**                  | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
-Compiler-warning friendly         | ?      | ?      | ?      | ?      | &nbsp;|
+Compiler-warning friendly         | &#9734;&#9734;&#9734;|&#9734;&#9734;|&#9734;&#9734;|&#9734;&#9734;| &nbsp; |
 Compile-time performance, relative| &#9734;&#9734;&#9734;|&#9734;&#9734;| ? | ? | see [[17]](#DTB) |
 Run-time performance, relative    | &#9734;&#9734;&#9734;|&#9734;&#9734;| ? | ? | see [[17]](#DTB) |
 Can provide canned main()         |&#10003;|&#10003;|&#10003;| -      | &nbsp;|
