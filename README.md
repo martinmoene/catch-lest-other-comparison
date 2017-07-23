@@ -149,6 +149,7 @@ Control order of tests            |&#10003;|&#10003;|&#10003;|&#10003;| &nbsp;|
 Repeat tests                      | -      |&#10003;|&#10003;|&#10003;| &nbsp;|
   &nbsp;                          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 **IDE integration**               | &nbsp; | &nbsp; | &nbsp; | &nbsp; | see [[15]](#IDE) |
+Output-window-compatible reports  |&#10003;|&#10003;|&#10003;|&#10003;| click through to source |
 C++ Builder                       | ?      | ?      | ?      | ?      | &nbsp;|
 Clion                             | ?      |&#10003;|&#10003;| ?      | &nbsp;|
 Code::Blocks                      | ?      | ?      | ?      | ?      | &nbsp;|
