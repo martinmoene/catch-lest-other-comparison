@@ -171,10 +171,10 @@ Size, LOC                         | 4,500  | 9,100  | ?      | 1,000  | &nbsp;|
   &nbsp;                          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 **Platforms**                     | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 AIX / XL                          | ?      | 11.1.0 | ?      | ?      | Catch-1: 2013 |
-OSX / clang                       | ?      | ?      | ?      | ?      | &nbsp;|
-OSX / gcc                         | ?      | ?      | ?      | ?      | &nbsp;|
-OSX / XCode / clang               | 6.4-8.3| 7.3-8  | 7.3-8  | ?      | source: Travis |
-OSX / XCode / gcc                 | 6.4-7.3| 7.3-8  | 7.3-8  | ?      | source: Travis |
+macOS / clang                     | ?      | ?      | ?      | ?      | &nbsp;|
+macOS / gcc                       | ?      | ?      | ?      | ?      | &nbsp;|
+macOS / XCode / clang             | 6.4-8.3| 7.3-8  | 7.3-8  | ?      | source: Travis |
+macOS / XCode / gcc               | 6.4-7.3| 7.3-8  | 7.3-8  | ?      | source: Travis |
 Linux / clang                     | 3.4-4  | 3.4-3.8| 3.5-3.8| 3.6-3.7| source: Travis |
 Linux / gcc                       | 4.4-6  | 4.4-6  | 4.8-6  | 4.9-5  | source: Travis |
 Solaris / SunPro                  | ?      | 5.12.0 | ?      | ?      | Catch-1: 2013 |
