@@ -160,15 +160,6 @@ Qt Creator                        | ?      | ?      | ?      | ?      | &nbsp;|
 Visual-MinGW                      | ?      | ?      | ?      | ?      | &nbsp;|
 Visual Studio                     | -      | &bull; | &bull; | -      | Catch: via ReSharper C++ |
   &nbsp;                          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
-**Code-related**                  | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
-Compiler-warning friendly         | &#9734;&#9734;&#9734;|&#9734;&#9734;|&#9734;&#9734;|&#9734;&#9734;| &nbsp; |
-Compile-time performance, relative| &#9734;&#9734;&#9734;|&#9734;&#9734;| ? | ? | see [[17]](#DTB) |
-Run-time performance, relative    | &#9734;&#9734;&#9734;|&#9734;&#9734;| ? | ? | see [[17]](#DTB) |
-Can provide canned main()         |&#10003;|&#10003;|&#10003;| -      | &nbsp;|
-Only depends on C++ std library   |&#10003;|&#10003;|&#10003;|&#10003;| &nbsp;|
-Single-file header-only           |&#10003;|&#10003;|&#10003;|&#10003;| &nbsp;|
-Size, LOC                         | 4,500  | 9,100  | ?      | 1,000  | &nbsp;|
-  &nbsp;                          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 **Platforms**                     | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 AIX / XL                          | ?      | 11.1.0 | ?      | ?      | Catch-1: 2013 |
 macOS / clang                     | ?      | ?      | ?      | ?      | &nbsp;|
@@ -213,6 +204,17 @@ PVC-Studio                        | -      | -      | -      | -      | &nbsp;|
 OCLint                            |&#10003;| -      | -      | -      | &nbsp;|
 ReSharper C++                     | -      | -      | -      | -      | &nbsp;|
 Visual Studio                     |&#10003;| -      | -      | -      | &nbsp;|
+  &nbsp;                          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
+**Code-related**                  | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
+Compile-time performance, relative|&#9734;&#9734;&#9734;|&#9734;&#9734;| ? | ? | see [[17]](#DTB) |
+Run-time performance, relative    |&#9734;&#9734;&#9734;|&#9734;&#9734;| ? | ? | see [[17]](#DTB) |
+Compiler-warning friendly         |&#9734;&#9734;&#9734;|&#9734;&#9734;|&#9734;&#9734;|&#9734;&#9734;| &nbsp; |
+Compiles with -Wall -Wextra       |&#10003;|&#10003;|&#10003;|&#10003;| &nbsp;|
+Compiles with -Werror             |&#10003;| ?      | ?      |&#10003;| &nbsp;|
+Can provide canned main()         |&#10003;|&#10003;|&#10003;| -      | &nbsp;|
+Only depends on C++ std library   |&#10003;|&#10003;|&#10003;|&#10003;| &nbsp;|
+Single-file header-only           |&#10003;|&#10003;|&#10003;|&#10003;| &nbsp;|
+Size, LOC                         | 4,500  | 9,100  | ?      | 1,000  | &nbsp;|
   &nbsp;                          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 **Distribution of framework**     | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 GitHub single-file download       |&#10003;|&#10003;| -      |&#10003;| from the landing page |
