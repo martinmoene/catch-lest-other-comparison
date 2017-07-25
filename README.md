@@ -209,8 +209,7 @@ Visual Studio                     |&#10003;| -      | -      | -      | &nbsp;|
 Compile-time performance, relative|&#9734;&#9734;&#9734;|&#9734;&#9734;| ? | ? | see [[17]](#DTB) |
 Run-time performance, relative    |&#9734;&#9734;&#9734;|&#9734;&#9734;| ? | ? | see [[17]](#DTB) |
 Compiler-warning friendly         |&#9734;&#9734;&#9734;|&#9734;&#9734;|&#9734;&#9734;|&#9734;&#9734;| &nbsp; |
-Compiles with -Wall -Wextra       |&#10003;|&#10003;|&#10003;|&#10003;| &nbsp;|
-Compiles with -Werror             |&#10003;| ?      | ?      |&#10003;| &nbsp;|
+Compiles with -Werror -Wall -Wextra|&#10003;|&#10003;| ?      |&#10003;| &nbsp;|
 Can provide canned main()         |&#10003;|&#10003;|&#10003;| -      | &nbsp;|
 Only depends on C++ std library   |&#10003;|&#10003;|&#10003;|&#10003;| &nbsp;|
 Single-file header-only           |&#10003;|&#10003;|&#10003;|&#10003;| &nbsp;|
