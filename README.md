@@ -178,7 +178,7 @@ Windows / msys2 / clang           | ?      | ?      | ?      | ?      | &nbsp;|
 Windows / msys2 / gcc             | ?      | ?      | ?      | ?      | &nbsp;|
   &nbsp;                          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 **Quality of project**            | &nbsp; | &nbsp; | &nbsp; | &nbsp; | note: challenge *42* |
-Follows CII best practices        |&#10003;| ?      | ?      | ?      | see [[18]](#CII)|
+Follows CII best practices        |&#10003;|[partly](https://bestpractices.coreinfrastructure.org/projects/1158)|[partly](https://bestpractices.coreinfrastructure.org/projects/1158)|[partly](https://bestpractices.coreinfrastructure.org/projects/1127)| see [[18]](#CII)|
   &nbsp;                          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 **Quality of code**               | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 Unit testing                      |&#10003;|&#10003;|&#10003;|&#10003;| details below |
