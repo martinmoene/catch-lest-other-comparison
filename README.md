@@ -50,7 +50,7 @@ Support                           | ?      | ?      | ?      | ?      | experien
 Troubleshooting                   | ?      | ?      | ?      | ?      | annoyed users |
 Internals                         | ?      | ?      | ?      | ?      | fellow developers |
 Reference                         | ?      | ?      | ?      | ?      | everyone|
-Try it online                     |&#10003;| -      | -      |&#10003;| &nbsp;|
+Try it online                     |&#10003;|&#10003;| -      |&#10003;| &nbsp;|
 Forum                             | -      |&#10003;|&#10003;| -      | Catch: Google group |
 Chat                              |&#10003;| -      | -      | -      | doctest: Gitter &nbsp;|
 StackOverflow tag              | -      |&#10003;|&#10003;| -      | see [[16]](#SOC) |
