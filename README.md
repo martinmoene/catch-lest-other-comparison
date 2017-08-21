@@ -30,7 +30,7 @@ Expressions are decomposed and original expression code can be shown alongside t
 
 Feature                           | [doctest](#DOT)| [Catch-1](#CA1)| [Catch-2](#CA2)| [lest](#LST)| Notes |
 ----------------------------------|:------:|:------:|:------:|:------:|-------|
-**License**                       | MIT    |BSL-1.0 | &nbsp; |BSL-1.0 | &nbsp;|
+**License**                       | MIT    |BSL-1.0 |BSL-1.0 |BSL-1.0 | &nbsp;|
   &nbsp;                          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 **C++ standard related**          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 C++ standard                      | C++98  | C++98  | C++11  | C++11  | &nbsp;|
