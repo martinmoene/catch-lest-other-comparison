@@ -75,7 +75,8 @@ Assert assertions (death)         | -      | -      | -      | -      | &nbsp;|
 Expression decomposition          |&#10003;|&#10003;|&#10003;|&#10003;| see [[2]](#PN1) |
 Floating point comparison, approx |&#10003;|&#10003;|&#10003;|&#10003;| &nbsp;|
 Floating point comparison, ulp    | -      | -      | -      | -      | see stf [[10]](#ULP)|
-Hamcrest matchers                 | -      |[ca. 10](#C1M)|[ca. 10](#C2M)|[hamlest](#HLM)| see [[15](#HCT)] |
+Hamcrest matchers (built-in)      | -      | some   | some   | &bull; | see [[12](#C1M)][[13](#C2M)][[14](#HLM)][[15](#HCT)] |
+Hamcrest matchers (user-definable)| -      |&#10003;|&#10003;| -      | &nbsp;|
 Macros with and without prefix    |&#10003;|&#10003;|&#10003;|&#10003;| CATCH_CHECK(), CHECK()|
   &nbsp;                          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 **Other test facilities**         | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
@@ -238,9 +239,9 @@ References
 <a id="LST"></a>[9] Martin Moene. [lest on GitHub](https://github.com/martinmoene/lest/). 2013.  
 <a id="ULP"></a>[10] Joel Falcou. [Design rationale for using ULP with stf](https://github.com/jfalcou/stf/blob/master/doc/rationale.md).  
 <a id="BTC"></a>[11] Gennadiy Rozental and Raffi Enficiaud. [Checkpoints in Boost.Test](http://www.boost.org/doc/libs/1_64_0/libs/test/doc/html/boost_test/test_output/test_tools_support_for_logging/checkpoints.html).  
-<a id="C1M"></a>[12] [Matchers in Catch-1](https://github.com/philsquared/Catch/blob/master/docs/matchers.md).  
-<a id="C2M"></a>[13] [Matchers in Catch-2](https://github.com/philsquared/Catch/blob/catch2/docs/matchers.md).  
-<a id="HLM"></a>[14] [Matchers in lest: hamlest](https://github.com/martinmoene/hamlest).  
+<a id="C1M"></a>[12] [Matchers in Catch-1](https://github.com/philsquared/Catch/blob/master/docs/matchers.md#built-in-matchers).  
+<a id="C2M"></a>[13] [Matchers in Catch-2](https://github.com/philsquared/Catch/blob/catch2/docs/matchers.md#built-in-matchers).  
+<a id="HLM"></a>[14] [Matchers in lest: via hamlest](https://github.com/martinmoene/hamlest).  
 <a id="HCT"></a>[15] [Hamcrest 1.3 Quick Reference (PDF)](http://www.marcphilipp.de/downloads/posts/2013-01-02-hamcrest-quick-reference/Hamcrest-1.3.pdf).  
 <a id="IDE"></a>[16] Wikipedia. [List of C++ IDEs](https://en.wikipedia.org/wiki/Comparison_of_integrated_development_environments#C.2FC.2B.2B).  
 <a id="LOC"></a>[17] [CodeBlocks IDE](). Non-empty, non-comment lines, via File > Properties.  
