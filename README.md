@@ -43,7 +43,7 @@ Embedded (tiny)                   | ?      | ?      | ?      | ?      | &nbsp;|
 Embedded (largish)                | ?      | ?      | ?      |&#10003;| &nbsp;|
 Operating System                  | ?      | ?      | ?      |&#10003;| lest: IncludeOS |
   &nbsp;                          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
-**Documentation of framework**    | &nbsp; | &nbsp; | &nbsp; | &nbsp; | see [[20]](#WGD) |
+**Documentation of framework**    | &nbsp; | &nbsp; | &nbsp; | &nbsp; | see [[21]](#WGD) |
 First contact                     | ?      | ?      | ?      | ?      | new users |
 Education                         | ?      | ?      | ?      | ?      | new & existing users |
 Support                           | ?      | ?      | ?      | ?      | experienced users |
@@ -53,7 +53,7 @@ Reference                         | ?      | ?      | ?      | ?      | everyone
 Try it online                     |&#10003;|&#10003;| -      |&#10003;| &nbsp;|
 Forum                             | -      |&#10003;|&#10003;| -      | Catch: Google group |
 Chat                              |&#10003;| -      | -      | -      | doctest: Gitter &nbsp;|
-StackOverflow tag              | -      |&#10003;|&#10003;| -      | see [[17]](#SOC) |
+StackOverflow tag              | -      |&#10003;|&#10003;| -      | see [[18]](#SOC) |
   &nbsp;                          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 **Test organisation**             | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 Suites of tests                   |&#10003;| -      | -      | -      | &nbsp;|
@@ -63,8 +63,8 @@ Type-parameterised tests          |&#10003;|&#10003;|&#10003;| -      | &nbsp;|
 Value-parameterised tests         | -      | -      | -      | -      | &nbsp;|
 Auto-registration of tests        |&#10003;|&#10003;|&#10003;|&#10003;| &nbsp;|
 Tabularised tests                 | -      | -      | -      |&#10003;| array of lambdas |
-Allow tests accompany code        |&#10003;| -      | -      | -      | &nbsp;|
-Allow tests in header files       |&#10003;| -      | -      | -      | &nbsp;|
+Allow tests accompany code        |&#10003;|&#10003;|&#10003;| -      | Catch: not recommended (compile-time) |
+Allow tests in header files       |&#10003;|&#10003;|&#10003;| -      | Catch: not recommended (compile-time) |
   &nbsp;                          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 **Assertions**                    | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 BDD style scenarios               |&#10003;|&#10003;|&#10003;|&#10003;| &nbsp;|
@@ -75,7 +75,7 @@ Assert assertions (death)         | -      | -      | -      | -      | &nbsp;|
 Expression decomposition          |&#10003;|&#10003;|&#10003;|&#10003;| see [[2]](#PN1) |
 Floating point comparison, approx |&#10003;|&#10003;|&#10003;|&#10003;| &nbsp;|
 Floating point comparison, ulp    | -      | -      | -      | -      | see stf [[10]](#ULP)|
-Hamcrest matchers                 | -      |[limited](#C1M)|[limited](#C1M)|[hamlest](#HLM)| &nbsp;|
+Hamcrest matchers                 | -      |[ca. 10](#C1M)|[ca. 10](#C2M)|[hamlest](#HLM)| see [[15](#HCT)] |
 Macros with and without prefix    |&#10003;|&#10003;|&#10003;|&#10003;| CATCH_CHECK(), CHECK()|
   &nbsp;                          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 **Other test facilities**         | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
@@ -83,7 +83,7 @@ Mocking support                   | &bull; | &bull; | &bull; | &bull; | via 3rd 
 Logging facility                  |&#10003;|&#10003;|&#10003;| -      | &nbsp;|
 Logging levels                    | -      | -      | -      | -      | &nbsp;|
 Checkpoints                       | -      | -      | -      | -      | see Boost.Test [[11]](#BTC) |
-Test data generators              | -      | &bull; |&#10003;| -      | Cach-1: undocumented |
+Test data generators              | -      | &bull; | -      | -      | Cach-1: undocumented |
 Property-based testing            | -      | -      | -      | -      | &nbsp;|
 Obtain name of current test       | ?      | &bull; | ?      | -      | Catch-1: undocumented |
   &nbsp;                          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
@@ -148,7 +148,7 @@ Time duration of tests            |&#10003;|&#10003;|&#10003;|&#10003;| &nbsp;|
 Control order of tests            |&#10003;|&#10003;|&#10003;|&#10003;| &nbsp;|
 Repeat tests                      | -      |&#10003;|&#10003;|&#10003;| &nbsp;|
   &nbsp;                          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
-**IDE integration**               | &nbsp; | &nbsp; | &nbsp; | &nbsp; | see [[15]](#IDE) |
+**IDE integration**               | &nbsp; | &nbsp; | &nbsp; | &nbsp; | see [[16]](#IDE) |
 Output-window-compatible reports  |&#10003;|&#10003;|&#10003;|&#10003;| click through to source |
 C++ Builder                       | ?      | ?      | ?      | ?      | &nbsp;|
 Clion                             | ?      |&#10003;|&#10003;| ?      | &nbsp;|
@@ -179,12 +179,12 @@ Windows / msys2 / gcc             | ?      | ?      | ?      | ?      | &nbsp;|
   &nbsp;                          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 **Quality of project**            | &nbsp; | &nbsp; | &nbsp; | &nbsp; | note: challenge *42* |
 Code of conduct                   | -      |&#10003;|&#10003;| -      | &nbsp;|
-Follows CII best practices        |[&#10003;](https://bestpractices.coreinfrastructure.org/projects/503)|[partly](https://bestpractices.coreinfrastructure.org/projects/1158)|[partly](https://bestpractices.coreinfrastructure.org/projects/1158)|[partly](https://bestpractices.coreinfrastructure.org/projects/1127)| see [[19]](#CII)|
+Follows CII best practices        |[&#10003;](https://bestpractices.coreinfrastructure.org/projects/503)|[partly](https://bestpractices.coreinfrastructure.org/projects/1158)|[partly](https://bestpractices.coreinfrastructure.org/projects/1158)|[partly](https://bestpractices.coreinfrastructure.org/projects/1127)| see [[20]](#CII)|
   &nbsp;                          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 **Quality of code**               | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 Unit testing                      |&#10003;|&#10003;|&#10003;|&#10003;| details below |
 CI testing                        |&#10003;|&#10003;|&#10003;|&#10003;| details below |
-CI code anaylisis                 |&#10003;| -      | -      | -      | details below |
+CI code analysis                  |&#10003;| -      | -      | -      | details below |
   &nbsp;                          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 **Testing of framework**          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 Unit tests                        |&#10003;|&#10003;|&#10003;|&#10003;| &nbsp;|
@@ -207,14 +207,14 @@ ReSharper C++                     | -      | -      | -      | -      | &nbsp;|
 Visual Studio                     |&#10003;| -      | -      | -      | &nbsp;|
   &nbsp;                          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 **Code-related**                  | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
-Compile-time performance, relative|&#9734;&#9734;&#9734;|&#9734;&#9734;| ? | ? | see [[18]](#DTB) |
-Run-time performance, relative    |&#9734;&#9734;&#9734;|&#9734;&#9734;| ? | ? | see [[18]](#DTB) |
+Compile-time performance, relative|&#9734;&#9734;&#9734;|&#9734;&#9734;| ? | ? | see [[19]](#DTB) |
+Run-time performance, relative    |&#9734;&#9734;&#9734;|&#9734;&#9734;| ? | ? | see [[19]](#DTB) |
 Compiler-warning friendly         |&#9734;&#9734;&#9734;|&#9734;&#9734;|&#9734;&#9734;|&#9734;&#9734;| &nbsp; |
 Compiles with -Werror -Wall -Wextra|&#10003;|&#10003;| ?      |&#10003;| &nbsp;|
 Can provide canned main()         |&#10003;|&#10003;|&#10003;| -      | &nbsp;|
 Only depends on C++ std library   |&#10003;|&#10003;|&#10003;|&#10003;| &nbsp;|
 Single-file header-only           |&#10003;|&#10003;|&#10003;|&#10003;| &nbsp;|
-Size, LOC                         | 4,500  | 9,100  | ?      | 1,000  | see [[16]](#LOC) |
+Size, LOC                         | 4,500  | 9,100  | ?      | 1,000  | see [[17]](#LOC) |
   &nbsp;                          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 **Distribution of framework**     | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 GitHub single-file download       |&#10003;|&#10003;| -      |&#10003;| from the landing page |
@@ -239,14 +239,14 @@ References
 <a id="ULP"></a>[10] Joel Falcou. [Design rationale for using ULP with stf](https://github.com/jfalcou/stf/blob/master/doc/rationale.md).  
 <a id="BTC"></a>[11] Gennadiy Rozental and Raffi Enficiaud. [Checkpoints in Boost.Test](http://www.boost.org/doc/libs/1_64_0/libs/test/doc/html/boost_test/test_output/test_tools_support_for_logging/checkpoints.html).  
 <a id="C1M"></a>[12] [Matchers in Catch-1](https://github.com/philsquared/Catch/blob/master/docs/matchers.md).  
-<a id="C2M"></a>[13] [Matchers in Catch-2](https://github.com/philsquared/Catch/blob/master/docs/matchers.md).  
+<a id="C2M"></a>[13] [Matchers in Catch-2](https://github.com/philsquared/Catch/blob/catch2/docs/matchers.md).  
 <a id="HLM"></a>[14] [Matchers in lest: hamlest](https://github.com/martinmoene/hamlest).  
-<a id="IDE"></a>[15] Wikipedia. [List of C++ IDEs](https://en.wikipedia.org/wiki/Comparison_of_integrated_development_environments#C.2FC.2B.2B).  
-<a id="LOC"></a>[16] [CodeBlocks IDE](). Non-empty, non-comment lines, via File > Properties.  
-<a id="SOC"></a>[17] StackOverflow. [Questions tagged catch-unit-test](https://stackoverflow.com/questions/tagged/catch-unit-test).  
-<a id="DTB"></a>[18] Viktor Kirilov. [doctest Benchmarks](https://github.com/onqtam/doctest/blob/master/doc/markdown/benchmarks.md#benchmarks). May 2017.  
-<a id="CII"></a>[19] Linux Foundation (LF). [CII Best Practices](https://bestpractices.coreinfrastructure.org/).  
-<a id="WGD"></a>[20] Jacob Kaplan-Moss. [Writing great documentation](https://www.slideshare.net/jacobian/writing-great-documentation-codeconf-2011).  
-
+<a id="HCT"></a>[15] [Hamcrest 1.3 Quick Reference (PDF)](http://www.marcphilipp.de/downloads/posts/2013-01-02-hamcrest-quick-reference/Hamcrest-1.3.pdf).  
+<a id="IDE"></a>[16] Wikipedia. [List of C++ IDEs](https://en.wikipedia.org/wiki/Comparison_of_integrated_development_environments#C.2FC.2B.2B).  
+<a id="LOC"></a>[17] [CodeBlocks IDE](). Non-empty, non-comment lines, via File > Properties.  
+<a id="SOC"></a>[18] StackOverflow. [Questions tagged catch-unit-test](https://stackoverflow.com/questions/tagged/catch-unit-test).  
+<a id="DTB"></a>[19] Viktor Kirilov. [doctest Benchmarks](https://github.com/onqtam/doctest/blob/master/doc/markdown/benchmarks.md#benchmarks). May 2017.  
+<a id="CII"></a>[20] Linux Foundation (LF). [CII Best Practices](https://bestpractices.coreinfrastructure.org/).  
+<a id="WGD"></a>[21] Jacob Kaplan-Moss. [Writing great documentation](https://www.slideshare.net/jacobian/writing-great-documentation-codeconf-2011).  
 
 <p style="height:60em;"></p>
