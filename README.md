@@ -163,7 +163,7 @@ Visual Studio                     | -      | &bull; | &bull; | -      | Catch: v
 **Platforms**                     | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 AIX / XL                          | ?      | 11.1.0 | ?      | ?      | Catch-1: 2013 |
 macOS / clang                     | ?      | ?      | ?      | ?      | &nbsp;|
-macOS / gcc                       | 4.4-6  | ?      | ?      | ?      | &nbsp;|
+macOS / gcc                       | 4.4-6  | ?      | ?      | ?      | source: Travis |
 macOS / XCode / clang             | 6.4-8.3| 7.3-8  | 7.3-8  | ?      | source: Travis |
 macOS / XCode / gcc               | 6.4-7.3| 7.3-8  | 7.3-8  | ?      | source: Travis |
 Linux / clang                     | 3.4-4  | 3.4-3.8| 3.5-3.8| 3.6-3.7| source: Travis |
