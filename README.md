@@ -121,7 +121,7 @@ Supports Windows SEH              |&#10003;|&#10003;|&#10003;| -      | &nbsp;|
 Improve compilation speed         |&#10003;|&#10003;|&#10003;|-       | reduced functionality |
 Omit macros without prefix        |&#10003;|&#10003;|&#10003;|&#10003;| &nbsp;|
 Omit std::wstring                 | -      | -      | -      |&#10003;| &nbsp;|
-Omit std::cout, std::cerr         | -      |&#10003;|&#10003;| -      | &nbsp;|
+Omit std::cout, cerr, clog        | -      |&#10003;|&#10003;| -      | &nbsp;|
 Specify terminal color system     |&#10003;|&#10003;|&#10003;| -      | none, ansi, win32 |
 Specify terminal width            | -      |&#10003;|&#10003;| -      | &nbsp;|
 Control handling of POSIX signals |&#10003;|&#10003;|&#10003;| -      | &nbsp;|
