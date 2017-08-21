@@ -140,11 +140,11 @@ Select tests by file              |&#10003;|&#10003;|&#10003;| -      | Catch: v
 Select section by name            |&#10003;|&#10003;|&#10003;| -      | &nbsp;|
 Select supports regexp            |&#10003;| -      | -      |&#10003;| &nbsp;|
 Omit assertions expected to throw | -      |&#10003;|&#10003;| -      | &nbsp;|
-Count selected tests              | -      | -      | -      |&#10003;| &nbsp;|
+Count selected tests              |&#10003;| -      | -      |&#10003;| &nbsp;|
 Abort at N-th failure             |&#10003;|&#10003;|&#10003;|&#10003;| lest: N is 1 |
 Break into debugger               |&#10003;|&#10003;|&#10003;| -      | &nbsp;|
 Report passing tests              |&#10003;|&#10003;|&#10003;|&#10003;| &nbsp;|
-Time duration of tests            | -      |&#10003;|&#10003;|&#10003;| &nbsp;|
+Time duration of tests            |&#10003;|&#10003;|&#10003;|&#10003;| &nbsp;|
 Control order of tests            |&#10003;|&#10003;|&#10003;|&#10003;| &nbsp;|
 Repeat tests                      | -      |&#10003;|&#10003;|&#10003;| &nbsp;|
   &nbsp;                          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
@@ -163,14 +163,14 @@ Visual Studio                     | -      | &bull; | &bull; | -      | Catch: v
 **Platforms**                     | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 AIX / XL                          | ?      | 11.1.0 | ?      | ?      | Catch-1: 2013 |
 macOS / clang                     | ?      | ?      | ?      | ?      | &nbsp;|
-macOS / gcc                       | ?      | ?      | ?      | ?      | &nbsp;|
+macOS / gcc                       | 4.4-6  | ?      | ?      | ?      | &nbsp;|
 macOS / XCode / clang             | 6.4-8.3| 7.3-8  | 7.3-8  | ?      | source: Travis |
 macOS / XCode / gcc               | 6.4-7.3| 7.3-8  | 7.3-8  | ?      | source: Travis |
 Linux / clang                     | 3.4-4  | 3.4-3.8| 3.5-3.8| 3.6-3.7| source: Travis |
 Linux / gcc                       | 4.4-6  | 4.4-6  | 4.8-6  | 4.9-5  | source: Travis |
 Solaris / SunPro                  | ?      | 5.12.0 | ?      | ?      | Catch-1: 2013 |
 Windows / clang                   | ?      | ?      | ?      | 3.2+   | &nbsp;|
-Windows / gcc                     | ?      | ?      | ?      | 4.8.1+ | &nbsp;|
+Windows / gcc                     | 7      | ?      | ?      | 4.8.1+ | &nbsp;|
 Windows / Visual C++              | 9-15   | 10-15  | 14-15  | 12-15  | Catch-1: possibly from 8 |
 Windows / Cygwin / clang          | ?      | ?      | ?      | ?      | &nbsp;|
 Windows / Cygwin / gcc            | ?      | ?      | ?      | ?      | &nbsp;|
@@ -201,7 +201,7 @@ Coverity scan                     |&#10003;| -      | -      | -      | &nbsp;|
 clang-tidy                        |&#10003;| -      | -      | -      | &nbsp;|
 CppCheck                          |&#10003;| -      | -      | -      | &nbsp;|
 CppCoreCheck                      | -      | -      | -      | -      | &nbsp;|
-PVC-Studio                        | -      | -      | -      | -      | &nbsp;|
+PVS-Studio                        | -      | -      | -      | -      | &nbsp;|
 OCLint                            |&#10003;| -      | -      | -      | &nbsp;|
 ReSharper C++                     | -      | -      | -      | -      | &nbsp;|
 Visual Studio                     |&#10003;| -      | -      | -      | &nbsp;|
