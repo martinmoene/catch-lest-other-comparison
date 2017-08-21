@@ -63,8 +63,8 @@ Type-parameterised tests          |&#10003;|&#10003;|&#10003;| -      | &nbsp;|
 Value-parameterised tests         | -      | -      | -      | -      | &nbsp;|
 Auto-registration of tests        |&#10003;|&#10003;|&#10003;|&#10003;| &nbsp;|
 Tabularised tests                 | -      | -      | -      |&#10003;| array of lambdas |
-Allow tests accompany code        |&#10003;|&#10003;|&#10003;| -      | Catch: not recommended (compile-time) |
-Allow tests in header files       |&#10003;|&#10003;|&#10003;| -      | Catch: not recommended (compile-time) |
+Allow tests accompany code        |&#10003;|&#10003;|&#10003;| -      | Catch: not recommended...          |
+Allow tests in header files       |&#10003;|&#10003;|&#10003;| -      | ...to avoid long compilation times |
   &nbsp;                          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 **Assertions**                    | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 BDD style scenarios               |&#10003;|&#10003;|&#10003;|&#10003;| &nbsp;|
