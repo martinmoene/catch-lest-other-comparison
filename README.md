@@ -43,7 +43,7 @@ Embedded (tiny)                   | ?      | ?      | ?      | ?      | &nbsp;|
 Embedded (largish)                | ?      | ?      | ?      |&#10003;| &nbsp;|
 Operating System                  | ?      | ?      | ?      |&#10003;| lest: IncludeOS |
   &nbsp;                          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
-**Documentation of framework**    | &nbsp; | &nbsp; | &nbsp; | &nbsp; | see [[19]](#WGD) |
+**Documentation of framework**    | &nbsp; | &nbsp; | &nbsp; | &nbsp; | see [[20]](#WGD) |
 First contact                     | ?      | ?      | ?      | ?      | new users |
 Education                         | ?      | ?      | ?      | ?      | new & existing users |
 Support                           | ?      | ?      | ?      | ?      | experienced users |
@@ -53,7 +53,7 @@ Reference                         | ?      | ?      | ?      | ?      | everyone
 Try it online                     |&#10003;|&#10003;| -      |&#10003;| &nbsp;|
 Forum                             | -      |&#10003;|&#10003;| -      | Catch: Google group |
 Chat                              |&#10003;| -      | -      | -      | doctest: Gitter &nbsp;|
-StackOverflow tag              | -      |&#10003;|&#10003;| -      | see [[16]](#SOC) |
+StackOverflow tag              | -      |&#10003;|&#10003;| -      | see [[17]](#SOC) |
   &nbsp;                          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 **Test organisation**             | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 Suites of tests                   |&#10003;| -      | -      | -      | &nbsp;|
@@ -179,7 +179,7 @@ Windows / msys2 / gcc             | ?      | ?      | ?      | ?      | &nbsp;|
   &nbsp;                          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 **Quality of project**            | &nbsp; | &nbsp; | &nbsp; | &nbsp; | note: challenge *42* |
 Code of conduct                   | -      |&#10003;|&#10003;| -      | &nbsp;|
-Follows CII best practices        |[&#10003;](https://bestpractices.coreinfrastructure.org/projects/503)|[partly](https://bestpractices.coreinfrastructure.org/projects/1158)|[partly](https://bestpractices.coreinfrastructure.org/projects/1158)|[partly](https://bestpractices.coreinfrastructure.org/projects/1127)| see [[18]](#CII)|
+Follows CII best practices        |[&#10003;](https://bestpractices.coreinfrastructure.org/projects/503)|[partly](https://bestpractices.coreinfrastructure.org/projects/1158)|[partly](https://bestpractices.coreinfrastructure.org/projects/1158)|[partly](https://bestpractices.coreinfrastructure.org/projects/1127)| see [[19]](#CII)|
   &nbsp;                          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 **Quality of code**               | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 Unit testing                      |&#10003;|&#10003;|&#10003;|&#10003;| details below |
@@ -207,14 +207,14 @@ ReSharper C++                     | -      | -      | -      | -      | &nbsp;|
 Visual Studio                     |&#10003;| -      | -      | -      | &nbsp;|
   &nbsp;                          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 **Code-related**                  | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
-Compile-time performance, relative|&#9734;&#9734;&#9734;|&#9734;&#9734;| ? | ? | see [[17]](#DTB) |
-Run-time performance, relative    |&#9734;&#9734;&#9734;|&#9734;&#9734;| ? | ? | see [[17]](#DTB) |
+Compile-time performance, relative|&#9734;&#9734;&#9734;|&#9734;&#9734;| ? | ? | see [[18]](#DTB) |
+Run-time performance, relative    |&#9734;&#9734;&#9734;|&#9734;&#9734;| ? | ? | see [[18]](#DTB) |
 Compiler-warning friendly         |&#9734;&#9734;&#9734;|&#9734;&#9734;|&#9734;&#9734;|&#9734;&#9734;| &nbsp; |
 Compiles with -Werror -Wall -Wextra|&#10003;|&#10003;| ?      |&#10003;| &nbsp;|
 Can provide canned main()         |&#10003;|&#10003;|&#10003;| -      | &nbsp;|
 Only depends on C++ std library   |&#10003;|&#10003;|&#10003;|&#10003;| &nbsp;|
 Single-file header-only           |&#10003;|&#10003;|&#10003;|&#10003;| &nbsp;|
-Size, LOC                         | 4,500  | 9,100  | ?      | 1,000  | &nbsp;|
+Size, LOC                         | 4,500  | 9,100  | ?      | 1,000  | see [[16]](#LOC) |
   &nbsp;                          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 **Distribution of framework**     | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 GitHub single-file download       |&#10003;|&#10003;| -      |&#10003;| from the landing page |
@@ -242,10 +242,11 @@ References
 <a id="C2M"></a>[13] [Matchers in Catch-2](https://github.com/philsquared/Catch/blob/master/docs/matchers.md).  
 <a id="HLM"></a>[14] [Matchers in lest: hamlest](https://github.com/martinmoene/hamlest).  
 <a id="IDE"></a>[15] Wikipedia. [List of C++ IDEs](https://en.wikipedia.org/wiki/Comparison_of_integrated_development_environments#C.2FC.2B.2B).  
-<a id="SOC"></a>[16] StackOverflow. [Questions tagged catch-unit-test](https://stackoverflow.com/questions/tagged/catch-unit-test).  
-<a id="DTB"></a>[17] Viktor Kirilov. [doctest Benchmarks](https://github.com/onqtam/doctest/blob/master/doc/markdown/benchmarks.md#benchmarks). May 2017.  
-<a id="CII"></a>[18] Linux Foundation (LF). [CII Best Practices](https://bestpractices.coreinfrastructure.org/).  
-<a id="WGD"></a>[19] Jacob Kaplan-Moss. [Writing great documentation](https://www.slideshare.net/jacobian/writing-great-documentation-codeconf-2011).  
+<a id="LOC"></a>[16] [CodeBlocks IDE](). Non-empty, non-comment lines, via File > Properties.  
+<a id="SOC"></a>[17] StackOverflow. [Questions tagged catch-unit-test](https://stackoverflow.com/questions/tagged/catch-unit-test).  
+<a id="DTB"></a>[18] Viktor Kirilov. [doctest Benchmarks](https://github.com/onqtam/doctest/blob/master/doc/markdown/benchmarks.md#benchmarks). May 2017.  
+<a id="CII"></a>[19] Linux Foundation (LF). [CII Best Practices](https://bestpractices.coreinfrastructure.org/).  
+<a id="WGD"></a>[20] Jacob Kaplan-Moss. [Writing great documentation](https://www.slideshare.net/jacobian/writing-great-documentation-codeconf-2011).  
 
 
 <p style="height:60em;"></p>
