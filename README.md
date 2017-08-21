@@ -215,7 +215,7 @@ Compiles with -Werror -Wall -Wextra|&#10003;|&#10003;| ?      |&#10003;| &nbsp;|
 Can provide canned main()         |&#10003;|&#10003;|&#10003;| -      | &nbsp;|
 Only depends on C++ std library   |&#10003;|&#10003;|&#10003;|&#10003;| &nbsp;|
 Single-file header-only           |&#10003;|&#10003;|&#10003;|&#10003;| &nbsp;|
-Size, LOC                         | 4,500  | 9,100  | ?      | 1,000  | see [[17]](#LOC) |
+Size, LOC                         | 4,500  | 9,100  | 8,800  | 1,000  | see [[17]](#LOC) |
   &nbsp;                          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 **Distribution of framework**     | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 GitHub single-file download       |&#10003;|&#10003;| -      |&#10003;| from the landing page |
