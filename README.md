@@ -180,7 +180,7 @@ Windows / msys2 / gcc             | ?      | ?      | ?      | ?      | &nbsp;|
   &nbsp;                          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 **Quality of project**            | &nbsp; | &nbsp; | &nbsp; | &nbsp; | note: challenge *42* |
 Code of conduct                   | -      |&#10003;|&#10003;| -      | &nbsp;|
-Follows CII best practices        |[&#10003;](https://bestpractices.coreinfrastructure.org/projects/503)|[partly](https://bestpractices.coreinfrastructure.org/projects/1158)|[partly](https://bestpractices.coreinfrastructure.org/projects/1158)|[partly](https://bestpractices.coreinfrastructure.org/projects/1127)| see [[20]](#CII)|
+Follows CII best practices        |[&#10003;](https://bestpractices.coreinfrastructure.org/projects/503)|[partly](https://bestpractices.coreinfrastructure.org/projects/1224)|[partly](https://bestpractices.coreinfrastructure.org/projects/1224)|[partly](https://bestpractices.coreinfrastructure.org/projects/1127)| see [[20]](#CII)|
   &nbsp;                          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 **Quality of code**               | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 Unit testing                      |&#10003;|&#10003;|&#10003;|&#10003;| details below |
