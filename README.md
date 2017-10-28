@@ -22,7 +22,7 @@ Expressions are decomposed and original expression code can be shown alongside t
 
 **Kevlin's emphasis on simplicity** in testing and the desire to understand how expression decomposition works inspired Martin Moene to write ***lest*** [[4]](#MM1). The code of *lest* is intentionally kept small, so that it should be fairly easy to gain insight in how things work.
 
-**Accompanying test code with the code to test** was one of the drivers for Viktor Kirilov to write ***doctest*** [[5]](#VK1). Others are to enable using *doctest* with many different compilers and to shine in compile-time and run-time performance.
+**Accompanying test code with the code to test** was one of the drivers for Viktor Kirilov to write ***doctest*** [[5]](#VK1). Others are to enable using *doctest* with many different compilers and to shine in compile-time and run-time performance. At CppCon 2017 Viktor gave a presentation that explains many techniques used in doctest and Catch [[22]](#VK2). 
 
 <p>&nbsp;</p>
 
@@ -249,5 +249,6 @@ References
 <a id="DTB"></a>[19] Viktor Kirilov. [doctest Benchmarks](https://github.com/onqtam/doctest/blob/master/doc/markdown/benchmarks.md#benchmarks). May 2017.  
 <a id="CII"></a>[20] Linux Foundation (LF). [CII Best Practices](https://bestpractices.coreinfrastructure.org/).  
 <a id="WGD"></a>[21] Jacob Kaplan-Moss. [Writing great documentation](https://www.slideshare.net/jacobian/writing-great-documentation-codeconf-2011).  
+<a id="VK2"></a>[22] Viktor Kirilov. [Mix Tests and Production Code With Doctest - Implementing and Using the Fastest Modern C++ Testing Framework](https://www.youtube.com/watch?time_continue=1&v=eH1CxEC29l8) ([slides](http://slides.com/onqtam/2017_cppcon_doctest)). [CppCon 2017](https://cppcon.org/).
 
 <p style="height:60em;"></p>
