@@ -6,7 +6,7 @@ Tabularised feature comparison between Catch, doctest and lest C++ test framewor
 Note 1: This is an initial draft, it is incomplete and likely contains errors.  
 Note 2: Catch-2 is not yet released.
 
-Ideas, additions, corrections, signaling omissions, etc. welcome! 
+Ideas, additions, corrections, signaling omissions, etc. welcome!
 
 ---
 
@@ -22,7 +22,7 @@ Expressions are decomposed and original expression code can be shown alongside t
 
 **Kevlin's emphasis on simplicity** in testing and the desire to understand how expression decomposition works inspired Martin Moene to write ***lest*** [[4]](#MM1). The code of *lest* is intentionally kept small, so that it should be fairly easy to gain insight in how things work.
 
-**Accompanying test code with the code to test** was one of the drivers for Viktor Kirilov to write ***doctest*** [[5]](#VK1). Others are to enable using *doctest* with many different compilers and to shine in compile-time and run-time performance. At CppCon 2017 Viktor gave a presentation that explains many techniques used in doctest and Catch [[22]](#VK2). 
+**Accompanying test code with the code to test** was one of the drivers for Viktor Kirilov to write ***doctest*** [[5]](#VK1). Others are to enable using *doctest* with many different compilers and to shine in compile-time and run-time performance. At CppCon 2017 Viktor gave a presentation that explains many techniques used in doctest and Catch [[23]](#VK2).
 
 <p>&nbsp;</p>
 
@@ -43,7 +43,7 @@ Embedded (tiny)                   | ?      | ?      | ?      | ?      | &nbsp;|
 Embedded (largish)                | ?      | ?      | ?      |&#10003;| &nbsp;|
 Operating System                  | ?      | ?      | ?      |&#10003;| lest: IncludeOS |
   &nbsp;                          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
-**Documentation of framework**    | &nbsp; | &nbsp; | &nbsp; | &nbsp; | see [[21]](#WGD) |
+**Documentation of framework**    | &nbsp; | &nbsp; | &nbsp; | &nbsp; | see [[22]](#WGD) |
 First contact                     | ?      | ?      | ?      | ?      | new users |
 Education                         | ?      | ?      | ?      | ?      | new & existing users |
 Support                           | ?      | ?      | ?      | ?      | experienced users |
@@ -53,7 +53,7 @@ Reference                         | ?      | ?      | ?      | ?      | everyone
 Try it online                     |&#10003;|&#10003;| -      |&#10003;| &nbsp;|
 Forum                             | -      |&#10003;|&#10003;| -      | Catch: Google group |
 Chat                              |&#10003;| -      | -      | -      | doctest: Gitter &nbsp;|
-StackOverflow tag              | -      |&#10003;|&#10003;| -      | see [[18]](#SOC) |
+StackOverflow tag              | -      |&#10003;|&#10003;| -      | see [[19]](#SOC) |
   &nbsp;                          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 **Test organisation**             | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 Suites of tests                   |&#10003;| -      | -      | -      | &nbsp;|
@@ -84,6 +84,7 @@ Mocking support                   | &bull; | &bull; | &bull; | &bull; | via 3rd 
 Logging facility                  |&#10003;|&#10003;|&#10003;| -      | &nbsp;|
 Logging levels                    | -      | -      | -      | -      | &nbsp;|
 Checkpoints                       | -      | -      | -      | -      | see Boost.Test [[11]](#BTC) |
+Test decorators                   |&#10003;| -      | -      | -      | see [[16](#DTD)] |
 Test data generators              | -      | &bull; | -      | -      | Cach-1: undocumented |
 Property-based testing            | -      | -      | -      | -      | &nbsp;|
 Obtain name of current test       | ?      | &bull; | ?      | -      | Catch-1: undocumented |
@@ -111,7 +112,7 @@ Literal suffix u, l, f            | -      | -      | -      |&#10003;| compile-
 **Test execution**                | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 Concurrent execution of tests     | -      | -      | -      | -      | &nbsp;|
 Isolated execution of tests       | -      | -      | -      | -      | &nbsp;|
-Limit test execution time         | -      | -      | -      | -      | &nbsp;|
+Limit test execution time         |&#10003;| -      | -      | -      | doctest: via test decorator |
 Signal tests without assertions   | -      |&#10003;|&#10003;| -      | &nbsp;|
 Supports floating point exceptions| -      | -      | -      | -      | &nbsp;|
 Supports Posix signals            |&#10003;|&#10003;|&#10003;| -      | &nbsp;|
@@ -149,7 +150,7 @@ Time duration of tests            |&#10003;|&#10003;|&#10003;|&#10003;| &nbsp;|
 Control order of tests            |&#10003;|&#10003;|&#10003;|&#10003;| &nbsp;|
 Repeat tests                      | -      |&#10003;|&#10003;|&#10003;| &nbsp;|
   &nbsp;                          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
-**IDE integration**               | &nbsp; | &nbsp; | &nbsp; | &nbsp; | see [[16]](#IDE) |
+**IDE integration**               | &nbsp; | &nbsp; | &nbsp; | &nbsp; | see [[17]](#IDE) |
 Output-window-compatible reports  |&#10003;|&#10003;|&#10003;|&#10003;| click through to source |
 C++ Builder                       | ?      | ?      | ?      | ?      | &nbsp;|
 Clion                             | ?      |&#10003;|&#10003;| ?      | &nbsp;|
@@ -180,7 +181,7 @@ Windows / msys2 / gcc             | ?      | ?      | ?      | ?      | &nbsp;|
   &nbsp;                          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 **Quality of project**            | &nbsp; | &nbsp; | &nbsp; | &nbsp; | note: challenge *42* |
 Code of conduct                   | -      |&#10003;|&#10003;| -      | &nbsp;|
-Follows CII best practices        |[&#10003;](https://bestpractices.coreinfrastructure.org/projects/503)|[partly](https://bestpractices.coreinfrastructure.org/projects/1224)|[partly](https://bestpractices.coreinfrastructure.org/projects/1224)|[partly](https://bestpractices.coreinfrastructure.org/projects/1127)| see [[20]](#CII)|
+Follows CII best practices        |[&#10003;](https://bestpractices.coreinfrastructure.org/projects/503)|[partly](https://bestpractices.coreinfrastructure.org/projects/1224)|[partly](https://bestpractices.coreinfrastructure.org/projects/1224)|[partly](https://bestpractices.coreinfrastructure.org/projects/1127)| see [[21]](#CII)|
   &nbsp;                          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 **Quality of code**               | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 Unit testing                      |&#10003;|&#10003;|&#10003;|&#10003;| details below |
@@ -208,14 +209,14 @@ ReSharper C++                     | -      | -      | -      | -      | &nbsp;|
 Visual Studio                     |&#10003;| -      | -      | -      | &nbsp;|
   &nbsp;                          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 **Code-related**                  | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
-Compile-time performance, relative|&#9734;&#9734;&#9734;|&#9734;&#9734;| ? | ? | see [[19]](#DTB) |
-Run-time performance, relative    |&#9734;&#9734;&#9734;|&#9734;&#9734;| ? | ? | see [[19]](#DTB) |
+Compile-time performance, relative|&#9734;&#9734;&#9734;|&#9734;&#9734;| ? | ? | see [[20]](#DTB) |
+Run-time performance, relative    |&#9734;&#9734;&#9734;|&#9734;&#9734;| ? | ? | see [[20]](#DTB) |
 Compiler-warning friendly         |&#9734;&#9734;&#9734;|&#9734;&#9734;|&#9734;&#9734;|&#9734;&#9734;| &nbsp; |
 Compiles with -Werror -Wall -Wextra|&#10003;|&#10003;| ?      |&#10003;| &nbsp;|
 Can provide canned main()         |&#10003;|&#10003;|&#10003;| -      | &nbsp;|
 Only depends on C++ std library   |&#10003;|&#10003;|&#10003;|&#10003;| &nbsp;|
 Single-file header-only           |&#10003;|&#10003;|&#10003;|&#10003;| &nbsp;|
-Size, LOC                         | 4,500  | 9,100  | 8,800  | 1,000  | see [[17]](#LOC) |
+Size, LOC                         | 4,500  | 9,100  | 8,800  | 1,000  | see [[18]](#LOC) |
   &nbsp;                          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 **Distribution of framework**     | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 GitHub single-file download       |&#10003;|&#10003;| -      |&#10003;| from the landing page |
@@ -243,12 +244,13 @@ References
 <a id="C2M"></a>[13] [Matchers in Catch-2](https://github.com/philsquared/Catch/blob/catch2/docs/matchers.md#built-in-matchers).  
 <a id="HLM"></a>[14] [Matchers in lest: via hamlest](https://github.com/martinmoene/hamlest).  
 <a id="HCT"></a>[15] [Hamcrest 1.3 Quick Reference (PDF)](http://www.marcphilipp.de/downloads/posts/2013-01-02-hamcrest-quick-reference/Hamcrest-1.3.pdf).  
-<a id="IDE"></a>[16] Wikipedia. [List of C++ IDEs](https://en.wikipedia.org/wiki/Comparison_of_integrated_development_environments#C.2FC.2B.2B).  
-<a id="LOC"></a>[17] [CodeBlocks IDE](). Non-empty, non-comment lines, via File > Properties.  
-<a id="SOC"></a>[18] StackOverflow. [Questions tagged catch-unit-test](https://stackoverflow.com/questions/tagged/catch-unit-test).  
-<a id="DTB"></a>[19] Viktor Kirilov. [doctest Benchmarks](https://github.com/onqtam/doctest/blob/master/doc/markdown/benchmarks.md#benchmarks). May 2017.  
-<a id="CII"></a>[20] Linux Foundation (LF). [CII Best Practices](https://bestpractices.coreinfrastructure.org/).  
-<a id="WGD"></a>[21] Jacob Kaplan-Moss. [Writing great documentation](https://www.slideshare.net/jacobian/writing-great-documentation-codeconf-2011).  
-<a id="VK2"></a>[22] Viktor Kirilov. [Mix Tests and Production Code With Doctest - Implementing and Using the Fastest Modern C++ Testing Framework](https://www.youtube.com/watch?time_continue=1&v=eH1CxEC29l8) ([slides](http://slides.com/onqtam/2017_cppcon_doctest)). [CppCon 2017](https://cppcon.org/).
+<a id="DTD"></a>[16] [Decorators in doctest](https://github.com/onqtam/doctest/blob/master/doc/markdown/testcases.md#decorators).  
+<a id="IDE"></a>[17] Wikipedia. [List of C++ IDEs](https://en.wikipedia.org/wiki/Comparison_of_integrated_development_environments#C.2FC.2B.2B).  
+<a id="LOC"></a>[18] [CodeBlocks IDE](). Non-empty, non-comment lines, via File > Properties.  
+<a id="SOC"></a>[19] StackOverflow. [Questions tagged catch-unit-test](https://stackoverflow.com/questions/tagged/catch-unit-test).  
+<a id="DTB"></a>[20] Viktor Kirilov. [doctest Benchmarks](https://github.com/onqtam/doctest/blob/master/doc/markdown/benchmarks.md#benchmarks). May 2017.  
+<a id="CII"></a>[21] Linux Foundation (LF). [CII Best Practices](https://bestpractices.coreinfrastructure.org/).  
+<a id="WGD"></a>[22] Jacob Kaplan-Moss. [Writing great documentation](https://www.slideshare.net/jacobian/writing-great-documentation-codeconf-2011).  
+<a id="VK2"></a>[23] Viktor Kirilov. [Mix Tests and Production Code With Doctest - Implementing and Using the Fastest Modern C++ Testing Framework](https://www.youtube.com/watch?time_continue=1&v=eH1CxEC29l8) ([slides](http://slides.com/onqtam/2017_cppcon_doctest)). [CppCon 2017](https://cppcon.org/).  
 
 <p style="height:60em;"></p>
