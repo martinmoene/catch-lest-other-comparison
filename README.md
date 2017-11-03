@@ -3,8 +3,7 @@ Tabularised feature comparison between Catch, doctest and lest C++ test framewor
 
 [Skip to the feature comparison](#table).
 
-Note 1: This is an initial draft, it is incomplete and likely contains errors.  
-Note 2: Catch-2 is not yet released.
+Note: This is an initial draft, it is incomplete and likely contains errors.  
 
 Ideas, additions, corrections, signaling omissions, etc. welcome!
 
@@ -234,14 +233,14 @@ References
 <a id="PN2"></a>[3] Phil Nash. [Unit Testing in C++ and Objective-C just got easier](http://www.levelofindirection.com/journal/2010/12/28/unit-testing-in-c-and-objective-c-just-got-easier.html). Blog announcement, December 2010.  
 <a id="MM1"></a>[4] Martin Moene. [lest errors escape testing](http://martin-moene.blogspot.nl/2013/06/lest-tiny-c11-unittest-helper.html). Blog announcement, June 2013.  
 <a id="VK1"></a>[5] Viktor Kirilov. [doctest – the Lightest C++ Unit Testing Framework](https://accu.org/index.php/journals/2343). Announcement in Overload 137, February 2017.  
-<a id="CA1"></a>[6] Phils Nash. [Catch-1 on GitHub](https://github.com/philsquared/Catch/). 2010.  
-<a id="CA2"></a>[7] Phils Nash. [Catch-2 on GitHub](https://github.com/philsquared/Catch/tree/dev-modernize). 2017?  
+<a id="CA1"></a>[6] Phils Nash. [Catch-1 on GitHub](https://github.com/catchorg/Catch2/tree/Catch1.x). 2010.  
+<a id="CA2"></a>[7] Phils Nash. [Catch-2 on GitHub](https://github.com/catchorg/Catch2). 2017.  
 <a id="DOT"></a>[8] Viktor Kirilov. [doctest on GitHub](https://github.com/onqtam/doctest/). 2014.  
 <a id="LST"></a>[9] Martin Moene. [lest on GitHub](https://github.com/martinmoene/lest/). 2013.  
 <a id="ULP"></a>[10] Joel Falcou. [Design rationale for using ULP with stf](https://github.com/jfalcou/stf/blob/master/doc/rationale.md).  
 <a id="BTC"></a>[11] Gennadiy Rozental and Raffi Enficiaud. [Checkpoints in Boost.Test](http://www.boost.org/doc/libs/1_64_0/libs/test/doc/html/boost_test/test_output/test_tools_support_for_logging/checkpoints.html).  
-<a id="C1M"></a>[12] [Matchers in Catch-1](https://github.com/philsquared/Catch/blob/master/docs/matchers.md#built-in-matchers).  
-<a id="C2M"></a>[13] [Matchers in Catch-2](https://github.com/philsquared/Catch/blob/catch2/docs/matchers.md#built-in-matchers).  
+<a id="C1M"></a>[12] [Matchers in Catch-1](https://github.com/catchorg/Catch2/blob/Catch1.x/docs/matchers.md#built-in-matchers).  
+<a id="C2M"></a>[13] [Matchers in Catch-2](https://github.com/catchorg/Catch2/blob/master/docs/matchers.md#built-in-matchers).  
 <a id="HLM"></a>[14] [Matchers in lest: via hamlest](https://github.com/martinmoene/hamlest).  
 <a id="HCT"></a>[15] [Hamcrest 1.3 Quick Reference (PDF)](http://www.marcphilipp.de/downloads/posts/2013-01-02-hamcrest-quick-reference/Hamcrest-1.3.pdf).  
 <a id="DTD"></a>[16] [Decorators in doctest](https://github.com/onqtam/doctest/blob/master/doc/markdown/testcases.md#decorators).  
