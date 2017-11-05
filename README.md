@@ -1,3 +1,4 @@
+<a id="top"></a>
 # Catch&ndash;doctest&ndash;lest feature comparison
 Tabularised feature comparison between Catch, doctest and lest C++ test frameworks.
 
