@@ -226,6 +226,7 @@ hunter                            |&#10003;| ?      | -      | -      | &nbsp;|
 vcpkg                             |&#10003;|&#10003;| -      | -      | &nbsp;|
 Linux and other (search)          | [search](https://repology.org/metapackage/doctest/information) | &rarr; | [search](https://repology.org/metapackage/catch/information) | [search](https://repology.org/metapackage/lest/information) | on [Repology](https://repology.org/) |
   &nbsp;                          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
+**Feature**                       | [doctest](#DOT)| [Catch-1](#CA1)| [Catch-2](#CA2)| [lest](#LST)| Notes |
 
 
 References
