@@ -161,7 +161,7 @@ KDevelop                          | ?      | ?      | ?      | ?      | &nbsp;|
 Qt Creator                        | ?      | ?      | ?      | ?      | &nbsp;|
 Visual-MinGW                      | ?      | ?      | ?      | ?      | &nbsp;|
 Visual Studio                     | -      | &bull; | &bull; | -      | Catch: via ReSharper C++ |
-Visual Studio Code                | -      | -      | -      | -      | &nbsp;|
+Visual Studio Code                | -      | -      | -      | -      | see [issue](https://github.com/Microsoft/vscode-cpptools/issues/1079)|
   &nbsp;                          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 **Platforms**                     | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 AIX / XL                          | ?      | 11.1.0 | ?      | ?      | Catch-1: 2013 |
