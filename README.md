@@ -74,7 +74,7 @@ Assert abortion (death)           | -      | -      | -      | -      | &nbsp;|
 Assert assertions (death)         | -      | -      | -      | -      | &nbsp;|
 Expression decomposition          |&#10003;|&#10003;|&#10003;|&#10003;| see [[2]](#PN1) |
 Floating point comparison, approx |&#10003;|&#10003;|&#10003;|&#10003;| &nbsp;|
-Floating point comparison, ulp    | -      | -      | -      | -      | see stf [[10]](#ULP)|
+Floating point comparison, ULP    | -      | -      |&#10003;| -      | see stf [[10]](#ULP)|
 Hamcrest matchers (built-in)      | -      | some   | some   | &bull; | see [[12](#C1M)][[13](#C2M)][[14](#HLM)][[15](#HCT)] |
 Hamcrest matchers (user-definable)| -      |&#10003;|&#10003;| -      | &nbsp;|
 Macros with and without prefix    |&#10003;|&#10003;|&#10003;|&#10003;| CATCH_CHECK(), CHECK()|
