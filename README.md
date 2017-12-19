@@ -41,6 +41,8 @@ Requires RTTI                     | -      | -      | -      | -      | &nbsp;|
 Desktop                           |&#10003;|&#10003;|&#10003;|&#10003;| &nbsp;|
 Embedded (tiny)                   | ?      | ?      | ?      | ?      | &nbsp;|
 Embedded (largish)                | ?      | ?      | ?      |&#10003;| &nbsp;|
+Application, tool                 | ?      |&#10003;|&#10003;| ?      | &nbsp;|
+Library, framework                | ?      |&#10003;|&#10003;|&#10003;| &nbsp;|
 Operating System                  | ?      | ?      | ?      |&#10003;| lest: IncludeOS |
   &nbsp;                          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 **Documentation of framework**    | &nbsp; | &nbsp; | &nbsp; | &nbsp; | see [[22]](#WGD) |
