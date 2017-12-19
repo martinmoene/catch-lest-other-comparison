@@ -197,7 +197,7 @@ Baseline tests                    |&#10003;|&#10003;|&#10003;| -      | &nbsp;|
 **CI testing**                    | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 Travis                            |&#10003;|&#10003;|&#10003;|&#10003;| &nbsp;|
 Appveyor                          |&#10003;|&#10003;|&#10003;|&#10003;| &nbsp;|
-Coverage scan                     |&#10003;| -      | -      | -      | &nbsp;|
+Coverage scan                     |&#10003;| -      |&#10003;| -      | &nbsp;|
 Coverity scan                     |&#10003;| -      | -      | -      | &nbsp;|
   &nbsp;                          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 **CI static code analysis**       | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
