@@ -235,8 +235,8 @@ References
 <a id="PN2"></a>[3] Phil Nash. [Unit Testing in C++ and Objective-C just got easier](http://www.levelofindirection.com/journal/2010/12/28/unit-testing-in-c-and-objective-c-just-got-easier.html). Blog announcement, December 2010.  
 <a id="MM1"></a>[4] Martin Moene. [lest errors escape testing](http://martin-moene.blogspot.nl/2013/06/lest-tiny-c11-unittest-helper.html). Blog announcement, June 2013.  
 <a id="VK1"></a>[5] Viktor Kirilov. [doctest – the Lightest C++ Unit Testing Framework](https://accu.org/index.php/journals/2343). Announcement in Overload 137, February 2017.  
-<a id="CA1"></a>[6] Phils Nash. [Catch-1 on GitHub](https://github.com/catchorg/Catch2/tree/Catch1.x). 2010.  
-<a id="CA2"></a>[7] Phils Nash. [Catch-2 on GitHub](https://github.com/catchorg/Catch2). 2017.  
+<a id="CA1"></a>[6] Phil Nash. [Catch-1 on GitHub](https://github.com/catchorg/Catch2/tree/Catch1.x). 2010.  
+<a id="CA2"></a>[7] Phil Nash. [Catch-2 on GitHub](https://github.com/catchorg/Catch2). 2017.  
 <a id="DOT"></a>[8] Viktor Kirilov. [doctest on GitHub](https://github.com/onqtam/doctest/). 2014.  
 <a id="LST"></a>[9] Martin Moene. [lest on GitHub](https://github.com/martinmoene/lest/). 2013.  
 <a id="ULP"></a>[10] Joel Falcou. [Design rationale for using ULP with stf](https://github.com/jfalcou/stf/blob/master/doc/rationale.md).  
