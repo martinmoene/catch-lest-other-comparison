@@ -223,7 +223,7 @@ Size, LOC                         | 4,500  | 9,100  | 8,800  | 1,000  | see [[18
   &nbsp;                          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 **Distribution of framework**     | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 GitHub single-file download       |&#10003;|&#10003;|&#10003;|&#10003;| from the landing page |
-conan                             |&#10003;|&#10003;| -      | -      | &nbsp;|
+conan                             |&#10003;|&#10003;|&#10003;| -      | &nbsp;|
 hunter                            |&#10003;| ?      | -      | -      | &nbsp;|
 vcpkg                             |&#10003;|&#10003;| -      | -      | &nbsp;|
 Linux and other (search)          | [search](https://repology.org/metapackage/doctest/information) | &rarr; | [search](https://repology.org/metapackage/catch/information) | [search](https://repology.org/metapackage/lest/information) | on [Repology](https://repology.org/) |
