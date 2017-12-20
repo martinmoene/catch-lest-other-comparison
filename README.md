@@ -222,7 +222,7 @@ Single-file header-only           |&#10003;|&#10003;|&#10003;|&#10003;| &nbsp;|
 Size, LOC                         | 4,500  | 9,100  | 8,800  | 1,000  | see [[18]](#LOC) |
   &nbsp;                          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 **Distribution of framework**     | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
-GitHub single-file download       |&#10003;|&#10003;| -      |&#10003;| from the landing page |
+GitHub single-file download       |&#10003;|&#10003;|&#10003;|&#10003;| from the landing page |
 conan                             |&#10003;|&#10003;| -      | -      | &nbsp;|
 hunter                            |&#10003;| ?      | -      | -      | &nbsp;|
 vcpkg                             |&#10003;|&#10003;| -      | -      | &nbsp;|
