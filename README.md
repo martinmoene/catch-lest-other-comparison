@@ -225,7 +225,7 @@ Size, LOC                         | 4,500  | 9,100  | 8,800  | 1,000  | see [[18
 GitHub single-file download       |&#10003;|&#10003;|&#10003;|&#10003;| from the landing page |
 conan                             |&#10003;|&#10003;|&#10003;| -      | &nbsp;|
 hunter                            |&#10003;| ?      | -      | -      | &nbsp;|
-vcpkg                             |&#10003;|&#10003;| -      | -      | &nbsp;|
+vcpkg                             |&#10003;| -      |&#10003;| -      | &nbsp;|
 Linux and other (search)          | [search](https://repology.org/metapackage/doctest/information) | &rarr; | [search](https://repology.org/metapackage/catch/information) | [search](https://repology.org/metapackage/lest/information) | on [Repology](https://repology.org/) |
   &nbsp;                          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 **Feature**                       | [doctest](#DOT)| [Catch-1](#CA1)| [Catch-2](#CA2)| [lest](#LST)| Notes |
