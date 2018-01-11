@@ -251,7 +251,7 @@ References
 <a id="HCT"></a>[15] [Hamcrest 1.3 Quick Reference (PDF)](http://www.marcphilipp.de/downloads/posts/2013-01-02-hamcrest-quick-reference/Hamcrest-1.3.pdf).  
 <a id="DTD"></a>[16] [Decorators in doctest](https://github.com/onqtam/doctest/blob/master/doc/markdown/testcases.md#decorators).  
 <a id="IDE"></a>[17] Wikipedia. [List of C++ IDEs](https://en.wikipedia.org/wiki/Comparison_of_integrated_development_environments#C.2FC.2B.2B).  
-<a id="LOC"></a>[18] [CodeBlocks IDE](). Non-empty, non-comment lines, via File > Properties.  
+<a id="LOC"></a>[18] [CodeBlocks IDE](http://www.codeblocks.org/). Non-empty, non-comment lines, via File > Properties.  
 <a id="SOC"></a>[19] StackOverflow. [Questions tagged catch-unit-test](https://stackoverflow.com/questions/tagged/catch-unit-test).  
 <a id="DTB"></a>[20] Viktor Kirilov. [doctest Benchmarks](https://github.com/onqtam/doctest/blob/master/doc/markdown/benchmarks.md#benchmarks). May 2017.  
 <a id="CII"></a>[21] Linux Foundation (LF). [CII Best Practices](https://bestpractices.coreinfrastructure.org/).  
