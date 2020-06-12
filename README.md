@@ -155,14 +155,14 @@ Repeat tests                      | -      |&#10003;|&#10003;|&#10003;| &nbsp;|
 **IDE integration**               | &nbsp; | &nbsp; | &nbsp; | &nbsp; | see [[17]](#IDE) |
 Output-window-compatible reports  |&#10003;|&#10003;|&#10003;|&#10003;| click through to source |
 C++ Builder                       | ?      | ?      | ?      | ?      | &nbsp;|
-Clion                             | ?      |&#10003;|&#10003;| ?      | &nbsp;|
+CLion                             | &#10003;|&#10003;|&#10003;| -      | &nbsp;|
 Code::Blocks                      | ?      | ?      | ?      | ?      | &nbsp;|
 CodeLite                          | ?      | ?      | ?      | ?      | &nbsp;|
 Eclipse CDT                       | ?      | ?      | ?      | ?      | &nbsp;|
 KDevelop                          | ?      | ?      | ?      | ?      | &nbsp;|
 Qt Creator                        | ?      | ?      | ?      | ?      | &nbsp;|
 Visual-MinGW                      | ?      | ?      | ?      | ?      | &nbsp;|
-Visual Studio                     | -      | &bull; | &bull; | -      | Catch: via ReSharper C++ |
+Visual Studio                     | &bull; | &bull; | &bull; | -      | Catch and doctest: via ReSharper C++ |
 Visual Studio Code                | -      | -      | -      | -      | see [issue](https://github.com/Microsoft/vscode-cpptools/issues/1079)|
   &nbsp;                          | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
 **Platforms**                     | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;|
