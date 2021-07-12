@@ -160,7 +160,7 @@ Code::Blocks                      | ?      | ?      | ?      | ?      | &nbsp;|
 CodeLite                          | ?      | ?      | ?      | ?      | &nbsp;|
 Eclipse CDT                       | ?      | ?      | ?      | ?      | &nbsp;|
 KDevelop                          | ?      | ?      | ?      | ?      | &nbsp;|
-Qt Creator                        | ?      | ?      | ?      | ?      | &nbsp;|
+Qt Creator                        | ?      | ?      | &#10003;| ?      | &nbsp;|
 Visual-MinGW                      | ?      | ?      | ?      | ?      | &nbsp;|
 Visual Studio                     | &bull; | &bull; | &bull; | -      | Catch and doctest: via ReSharper C++ |
 Visual Studio Code                | -      | -      | -      | -      | see [issue](https://github.com/Microsoft/vscode-cpptools/issues/1079)|
